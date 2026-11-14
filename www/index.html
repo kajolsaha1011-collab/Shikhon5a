@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="author" content="Abhi">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="শিখন ভল্ট – ভিডিওর লিংক জমান, নোট লিখুন, শিখে কাজে লাগান। ইউটিউব, ফেসবুক, ইনস্টাগ্রাম ও টিকটকের ভিডিওর জন্য বাংলা লার্নিং লাইব্রেরি।">
+<meta name="theme-color" content="#2F4BFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0F1F" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="শিখন ভল্ট">
+<meta property="og:type" content="website">
+<meta property="og:title" content="শিখন ভল্ট – আমার ভিডিও লার্নিং লাইব্রেরি">
+<meta property="og:description" content="দেখে রাখা নয়, শিখে কাজে লাগানোর জায়গা। লিংক দিন, নোট লিখুন, কাজে লাগান।">
+<meta property="og:locale" content="bn_BD">
+<meta name="twitter:card" content="summary_large_image">
+<title>শিখন ভল্ট – আমার ভিডিও লার্নিং লাইব্রেরি</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Tiro+Bangla&family=Anek+Bangla:wght@500;600;700&display=swap" rel="stylesheet">
+<script>try{var _t=localStorage.getItem('shikhon-theme');if(_t==='light'||_t==='dark')document.documentElement.setAttribute('data-theme',_t)}catch(e){}</script>
+<style>
+:root{--bg:#F4F6FB;--card:#fff;--ink:#0F1730;--mut:#66718C;--line:#E2E7F1;--pri:#2F4BFF;--pri-ink:#fff;--tint:#E8ECFF;--ok:#12A66B;--field:#F3F5FA;--h1:#EAEFFF;--h2:#FFEEE6;--hl:rgba(15,23,48,.1);--sh:0 1px 2px rgba(15,23,48,.04),0 20px 40px -24px rgba(34,52,120,.35);--fd:'Tiro Bangla','Noto Serif Bengali','Kohinoor Bangla',serif;--fl:'Anek Bangla','Hind Siliguri',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A0F1F;--card:#111833;--ink:#EEF1FB;--mut:#8D98B8;--line:#1F2848;--pri:#6F8BFF;--pri-ink:#0A0F1F;--tint:#1A2350;--ok:#4ccf85;--field:#0D1430;--h1:#17214A;--h2:#2A1B3A;--hl:rgba(255,255,255,.1);--sh:0 20px 40px -24px rgba(0,0,0,.8)}}
+:root[data-theme="dark"]{--bg:#0A0F1F;--card:#111833;--ink:#EEF1FB;--mut:#8D98B8;--line:#1F2848;--pri:#6F8BFF;--pri-ink:#0A0F1F;--tint:#1A2350;--ok:#4ccf85;--field:#0D1430;--h1:#17214A;--h2:#2A1B3A;--hl:rgba(255,255,255,.1);--sh:0 20px 40px -24px rgba(0,0,0,.8)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Hind Siliguri','Noto Sans Bengali',system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 100px}
+.g{background:var(--card);border:1px solid var(--line);border-radius:24px;box-shadow:var(--sh)}
+.hero{padding:26px 22px;border-radius:28px;display:grid;gap:18px;background:linear-gradient(135deg,var(--h1),var(--h2))}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--fd);font-size:18px}
+.logo{width:32px;height:32px;border-radius:9px;flex:none;display:block}
+h1{font-family:var(--fd);font-weight:400;-webkit-text-stroke:.7px currentColor;font-size:clamp(28px,6.4vw,48px);line-height:1.2;margin:0}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--pri),#FF8A5B);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:0}
+.sub{color:var(--mut);margin:8px 0 0;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--hl);padding-top:18px}
+.st{padding:0 8px 0 0;margin-right:8px;border-right:1px solid var(--hl)}
+.st:last-child{border:0;margin:0}
+.st b{display:block;font-family:var(--fd);font-weight:400;-webkit-text-stroke:.7px currentColor;font-size:38px;line-height:1.15}
+.st span{font-family:var(--fl);font-weight:600;font-size:12px;color:var(--mut);line-height:1.35;display:block}
+.bar{height:6px;border-radius:9px;background:var(--hl);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--pri),#FF8A5B);transition:width .6s}
+.barl{display:flex;justify-content:space-between;font-family:var(--fl);font-weight:600;font-size:12px;color:var(--mut);margin-top:-8px}
+.barl b{color:var(--ink)}
+.tog{margin-top:14px;width:100%;display:flex;align-items:center;gap:14px;font:inherit;color:var(--ink);cursor:pointer;padding:14px 16px;text-align:left}
+.tog .pl{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--pri),#7A5BFF);color:#fff;font-size:22px;transition:transform .3s}
+.tog.open .pl{transform:rotate(45deg)}
+.tog .tl{flex:1;font-family:var(--fd);font-size:19px;-webkit-text-stroke:.6px currentColor}
+.tog .hn{font-size:12px;color:var(--mut)}
+.add{margin-top:12px;padding:22px;display:grid;gap:16px;animation:dn .3s ease}
+.add[hidden]{display:none}
+@keyframes dn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.add h2{margin:0;font-family:var(--fd);font-weight:400;font-size:25px;-webkit-text-stroke:.7px currentColor}
+.add h2:after{content:"";display:block;width:46px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--pri),#FF8A5B);margin-top:9px}
+label{display:flex;align-items:center;font-family:var(--fl);font-weight:700;font-size:15px;margin-bottom:8px}
+label:before{content:"";width:4px;height:15px;border-radius:3px;background:linear-gradient(var(--pri),#FF8A5B);margin-right:9px}
+input,textarea{width:100%;font:inherit;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:14px;padding:12px 14px;outline:none}
+input:focus,textarea:focus{border-color:var(--pri);box-shadow:0 0 0 3px rgba(47,75,255,.18)}
+textarea{resize:vertical;min-height:84px}
+input[type=file]{padding:8px}
+input[type=file]::file-selector-button{font:inherit;font-weight:600;border:0;border-radius:10px;padding:8px 14px;margin-right:12px;background:var(--pri);color:var(--pri-ink)}
+.hint{font-size:13px;color:var(--mut);margin-top:6px}
+.det{min-height:22px;font-size:13px;color:var(--mut);margin-top:6px}
+.btn{font:inherit;font-weight:700;border:0;border-radius:14px;padding:14px 20px;cursor:pointer;background:var(--pri);color:var(--pri-ink);box-shadow:0 10px 22px -10px var(--pri)}
+.gh{font:inherit;font-weight:600;font-size:13px;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:10px;padding:9px 14px;cursor:pointer;text-decoration:none;text-align:center}
+.gh:hover{border-color:var(--ink)}
+.sec{display:flex;align-items:baseline;justify-content:space-between;margin:30px 2px 10px}
+.sec h3{margin:0;font-family:var(--fd);font-weight:400;font-size:27px;-webkit-text-stroke:.7px currentColor}
+.sec span{font-family:var(--fl);font-weight:700;font-size:13px;color:var(--pri);background:var(--tint);padding:4px 12px;border-radius:99px}
+.tools{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;padding:10px 0 8px;background:color-mix(in srgb,var(--bg) 85%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.tools input{border-radius:99px;padding:13px 20px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+.chip{white-space:nowrap;font-family:var(--fl);font-weight:700;font-size:14px;color:var(--ink);background:var(--card);border:1px solid var(--line);padding:7px 16px;border-radius:99px;cursor:pointer}
+.chip.on{background:var(--pri);color:var(--pri-ink);border-color:var(--pri)}
+.grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:6px}
+@media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+.c{display:grid;grid-template-columns:128px 1fr;overflow:hidden;padding:0}
+.c.stack{grid-template-columns:1fr;grid-column:1/-1}
+.intro .c{animation:rise .5s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.fw{background:#0A0F1F;overflow:hidden;min-height:100%}
+.fr{position:relative;width:100%;margin:0 auto}
+.c:not(.stack) .fr{aspect-ratio:auto;height:100%;min-height:178px}
+.c.stack .fr{aspect-ratio:16/9}
+.fr.on.v{aspect-ratio:9/16;width:min(100%,46vh)}
+.fr.on.s{aspect-ratio:1/1;width:min(100%,66vh)}
+.fr iframe,.play{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{display:grid;place-items:center;cursor:pointer;color:#fff;background:linear-gradient(160deg,#1B2552,#0A0F1F);overflow:hidden;text-decoration:none;font:inherit;padding:0}
+.play img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tri{position:relative;z-index:1;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#fff,#DDE4FF);color:#2F4BFF;display:grid;place-items:center;font-size:16px;box-shadow:0 0 0 6px rgba(255,255,255,.16)}
+.play em{display:none}
+.bd{padding:12px 14px;gap:9px;display:grid;min-width:0;align-content:start}
+.mt{display:flex;align-items:center;gap:8px}
+.ct{font-family:var(--fl);font-weight:700;font-size:13px;padding:3px 11px;border-radius:8px;background:var(--tint);color:var(--pri)}
+.c:not(.stack) .pf{display:none}
+.pf{font-size:12px;color:var(--mut)}
+.dt{margin-left:auto;font-family:var(--fl);font-size:12px;color:var(--mut)}
+.nt{margin:0;font-size:14.5px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;padding:3px;background:var(--field);border:1px solid var(--line);border-radius:14px}
+.s{font:inherit;border:0;background:transparent;color:var(--ink);border-radius:11px;padding:7px 2px;cursor:pointer;display:grid;justify-items:center}
+.s i{font-style:normal;font-size:16px;line-height:1.25}
+.s span{font-family:var(--fl);font-weight:600;font-size:11.5px;color:var(--mut)}
+.s.on{background:var(--card);box-shadow:inset 0 0 0 1px var(--line)}
+.s.ok{background:color-mix(in srgb,var(--ok) 16%,transparent)}.s.ok i,.s.ok span{color:var(--ok)}
+.np{display:grid;gap:6px}
+.np textarea{min-height:170px;line-height:1.75}
+.np small{display:flex;justify-content:space-between;color:var(--mut);font-size:12px}
+.mm{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mm .del{color:#E5484D}
+.empty{grid-column:1/-1;text-align:center;padding:48px 20px;border:1.5px dashed var(--line);border-radius:24px;color:var(--mut)}
+.empty:before{content:"▶";display:grid;place-items:center;width:64px;height:64px;margin:0 auto 16px;border-radius:20px;background:linear-gradient(135deg,var(--pri),#7A5BFF);color:#fff;font-size:22px}
+.empty b{display:block;font-family:var(--fd);font-weight:400;font-size:24px;color:var(--ink);margin-bottom:4px}
+.foot{display:flex;gap:8px;justify-content:center;margin-top:34px;flex-wrap:wrap}
+.note{font-size:12px;color:var(--mut);text-align:center;margin-top:10px}
+.fab{position:fixed;right:16px;bottom:calc(env(safe-area-inset-bottom,0px) + 18px);width:56px;height:56px;border-radius:18px;border:0;background:linear-gradient(135deg,var(--pri),#7A5BFF);color:#fff;font-size:28px;line-height:1;cursor:pointer;z-index:30;box-shadow:0 14px 28px -10px var(--pri)}
+#modal{position:fixed;inset:0;background:rgba(6,9,20,.92);z-index:50;display:grid;place-items:center;padding:calc(env(safe-area-inset-top,0px) + 56px) 12px 16px}
+#modal[hidden]{display:none}
+.mbox{width:min(960px,100%)}
+#mx{position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px;border:0;border-radius:99px;padding:9px 16px;font:inherit;font-weight:600;cursor:pointer;background:#fff;color:#0F1730}
+
+.c,.c.stack{display:flex;flex-direction:column;grid-column:auto;padding:10px;gap:12px;overflow:visible;transition:transform .25s,border-color .25s,box-shadow .25s}
+.c:hover{transform:translateY(-4px);border-color:var(--pri);box-shadow:0 26px 46px -24px rgba(47,75,255,.5)}
+.c:not(.stack) .fr,.c.stack .fr{aspect-ratio:16/9;height:auto;min-height:0}
+.fr.on.v{aspect-ratio:9/16;width:min(100%,46vh)}
+.fr.on.s{aspect-ratio:1/1;width:min(100%,66vh)}
+.fw{min-height:0;border-radius:16px}
+.grid{grid-template-columns:1fr;gap:20px}
+@media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+.tri{width:58px;height:58px;font-size:18px;box-shadow:0 0 0 8px rgba(255,255,255,.16)}
+.pov{position:absolute;top:12px;left:12px;z-index:3;background:rgba(10,15,31,.7);color:#fff;border:0;font-size:12px;font-family:var(--fl);font-weight:700;padding:4px 12px;border-radius:99px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.pov.p-youtube{background:#FF0000}
+.pov.p-facebook{background:#1877F2}
+.pov.p-instagram{background:linear-gradient(45deg,#F58529,#DD2A7B 55%,#8134AF)}
+.pov.p-tiktok{background:#010101;box-shadow:-2px -2px 0 #25F4EE,2px 2px 0 #FE2C55}
+.pov.p-other{background:#5F6B7C}
+.rib{position:absolute;top:12px;right:12px;z-index:3;background:#1f8a4c;color:#fff;font-family:var(--fl);font-size:12px;font-weight:700;padding:4px 11px;border-radius:99px}
+.bd{padding:2px 8px 8px;gap:12px}
+.nt{font-size:15.5px;line-height:1.7}
+.seg{grid-template-columns:1.6fr 1fr 1fr;background:transparent;border:0;padding:0;gap:8px}
+.s{border:1px solid var(--line);border-radius:12px;padding:9px 4px;display:flex;align-items:center;justify-content:center;gap:6px}
+.s span{font-size:13px}
+.s:first-child{background:var(--pri);border-color:var(--pri)}
+.s:first-child i,.s:first-child span{color:var(--pri-ink)}
+.s:first-child.ok{background:color-mix(in srgb,var(--ok) 15%,transparent);border-color:var(--ok)}
+.s:first-child.ok i,.s:first-child.ok span{color:var(--ok)}
+
+.s.back{background:var(--ink)!important;border-color:var(--ink)!important}
+.s.back i,.s.back span{color:var(--bg)!important}
+.back2{display:none}
+.tools{padding:12px 0 10px}
+.tools input{height:54px;padding:0 20px 0 54px;border-radius:16px;font-size:16.5px;font-weight:500;background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='%235B6FF0' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-4-4'/%3E%3C/svg%3E") no-repeat 19px center/22px;border:1.5px solid color-mix(in srgb,var(--pri) 40%,var(--line));box-shadow:0 10px 24px -14px rgba(47,75,255,.55)}
+.tools input::placeholder{color:var(--mut);opacity:1;font-weight:500}
+.tools input:focus{border-color:var(--pri);box-shadow:0 0 0 4px color-mix(in srgb,var(--pri) 20%,transparent),0 10px 24px -14px rgba(47,75,255,.55)}
+.pn{background:var(--field);border:1px solid var(--line);border-radius:16px;padding:12px;display:grid;gap:10px;animation:dn .22s ease}
+.pn textarea{background:var(--card)}
+.ph2{display:flex;align-items:center;justify-content:space-between}
+.ph2 b{font-family:var(--fl);font-weight:700;font-size:14.5px}
+.x{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--mut);font-size:13px;cursor:pointer;display:grid;place-items:center;padding:0}
+.x:hover{color:var(--ink);border-color:var(--ink)}
+.s.on:not(:first-child){background:var(--tint);border-color:var(--pri)}
+.s.on:not(:first-child) i,.s.on:not(:first-child) span{color:var(--pri)}
+@keyframes dn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
+/* ===== টুলবার: সার্চ + ক্যাটাগরি (একসঙ্গে স্টিকি) ===== */
+.sec{margin:30px 2px 2px;align-items:center}
+.sec h3{line-height:1.3}
+.tools{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;margin:0 -16px;padding:8px 16px 6px;background:color-mix(in srgb,var(--bg) 94%,transparent);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2)}
+.tools:after{content:"";position:absolute;left:0;right:0;top:100%;height:16px;background:linear-gradient(var(--bg),transparent);pointer-events:none}
+.sb{position:relative}
+.tools .sb input{display:block;width:100%;height:52px;padding:0 52px 0 52px;border-radius:16px;font-size:16px;font-weight:500;border:1px solid var(--line);background-color:var(--card);background-position:18px center;box-shadow:0 1px 2px rgba(15,23,48,.04),0 10px 24px -16px rgba(47,75,255,.35);transition:border-color .2s,box-shadow .2s}
+.tools .sb input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.tools .sb input:focus{border-color:var(--pri);box-shadow:0 0 0 4px color-mix(in srgb,var(--pri) 16%,transparent),0 10px 24px -16px rgba(47,75,255,.45)}
+.qx{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:32px;height:32px;border:0;border-radius:50%;background:var(--field);color:var(--mut);font-size:13px;cursor:pointer;display:grid;place-items:center;padding:0}
+.qx[hidden]{display:none}
+.qx:hover{color:var(--ink)}
+.chips{gap:8px;padding:12px 0 6px;margin:0;-webkit-overflow-scrolling:touch}
+.chip{height:36px;padding:0 16px;display:inline-flex;align-items:center;font-size:14px;line-height:1;box-shadow:0 1px 2px rgba(15,23,48,.04);transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--pri)}
+.chip.on{background:linear-gradient(135deg,var(--pri),#7A5BFF);border-color:transparent;box-shadow:none}
+.grid{margin-top:14px}
+.foot{margin-top:40px}
+
+/* ===== স্পেসিং সিস্টেম (৮px গ্রিড): ৮ · ১২ · ১৬ · ২৪ · ৩২ ===== */
+:root{--s1:8px;--s2:12px;--s3:16px;--s4:24px;--s5:32px}
+.wrap{padding:var(--s3) var(--s3) var(--s4)}
+/* হিরো */
+.hero{padding:var(--s4) 20px;gap:var(--s3)}
+.hero .hr{margin:0}
+.sub{margin:var(--s1) 0 0}
+.stats{padding-top:var(--s3)}
+.st{margin:0;padding:0 var(--s2)}
+.st:first-child{padding-left:0}
+.st:last-child{padding-right:0;border:0}
+.st b{line-height:1.1;margin-bottom:2px}
+.barl{margin-top:calc(var(--s1) * -1)}
+/* নতুন ভিডিও বাটন ও ফর্ম */
+.tog{margin-top:var(--s3);padding:var(--s2) var(--s3)}
+.add{margin-top:var(--s3);padding:20px;gap:var(--s3)}
+/* লাইব্রেরি হেডিং → সার্চ → চিপস → কার্ড: প্রতিটি ফাঁক ১২px */
+.sec{margin:var(--s5) 2px 4px}
+.tools{padding:var(--s1) var(--s3) var(--s2);transition:box-shadow .2s}
+.tools:after{display:none}
+.tools.stuck{box-shadow:0 1px 0 var(--line),0 12px 20px -16px rgba(15,23,48,.35);background:color-mix(in srgb,var(--bg) 92%,transparent)}
+.chips{padding:var(--s2) 0 0}
+.grid{margin-top:0;gap:var(--s3)}
+@media(min-width:820px){.grid{gap:20px}}
+/* ফুটার */
+.foot{margin-top:var(--s5)}
+.note{margin-top:var(--s2)}
+/* ফর্ম: খালি ডিটেক্ট লাইন জায়গা নেবে না, বাটনের আইকন হেলবে না */
+.det{min-height:0;margin-top:0}
+.det:empty{display:none}
+.det:not(:empty){margin-top:var(--s1)}
+.hint{margin-top:var(--s1)}
+label{margin-bottom:var(--s1)}
+
+/* ===== ব্যাকআপ ও সেটিংস কার্ড ===== */
+.dock{max-width:720px;margin:var(--s5) auto 0;padding:var(--s4) 20px 20px}
+.dk-h h3{margin:0;font-family:var(--fd);font-weight:400;font-size:22px;-webkit-text-stroke:.6px currentColor;line-height:1.3}
+.dk-h p{margin:var(--s1) 0 0;font-size:13.5px;line-height:1.6;color:var(--mut)}
+.dk-list{margin-top:var(--s3);border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--field)}
+.dk-row{width:100%;display:flex;align-items:center;gap:var(--s2);padding:14px var(--s3);font:inherit;color:var(--ink);text-align:left;background:transparent;border:0;cursor:pointer;transition:background .2s}
+.dk-row+.dk-row{border-top:1px solid var(--line)}
+button.dk-row:hover{background:color-mix(in srgb,var(--pri) 6%,transparent)}
+button.dk-row:focus-visible,.tb:focus-visible{outline:2px solid var(--pri);outline-offset:-2px}
+.dk-ic{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--tint);color:var(--pri)}
+.dk-ic.o{background:var(--h2);color:#E8663C}
+.dk-ic svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.dk-tx{flex:1;min-width:0;display:grid;gap:2px}
+.dk-tx b{font-family:var(--fl);font-weight:700;font-size:15px;line-height:1.35}
+.dk-tx small{font-size:12.5px;line-height:1.45;color:var(--mut)}
+.dk-go{flex:none;width:18px;height:18px;color:var(--mut)}
+.dk-go svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.dk-theme{flex-wrap:wrap;cursor:default}
+.tseg{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:4px;width:100%;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.tb{font:inherit;display:flex;align-items:center;justify-content:center;gap:6px;height:38px;border:0;border-radius:10px;background:transparent;color:var(--mut);font-family:var(--fl);font-weight:600;font-size:13.5px;cursor:pointer;transition:background .2s,color .2s}
+.tb svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tb:hover{color:var(--ink)}
+.tb.on{background:linear-gradient(135deg,var(--pri),#7A5BFF);color:#fff;box-shadow:0 6px 14px -8px var(--pri)}
+@media(min-width:560px){.tseg{width:auto;min-width:300px}}
+.ver{margin:var(--s3) 0 0;text-align:center;font-size:12.5px;color:var(--mut)}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 26px);transform:translate(-50%,16px);max-width:calc(100vw - 120px);opacity:0;pointer-events:none;background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:14px;font-family:var(--fl);font-weight:600;font-size:14px;line-height:1.4;text-align:center;z-index:60;box-shadow:0 14px 30px -12px rgba(0,0,0,.45);transition:opacity .25s,transform .25s}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+/* ক্রেডিট ফুটার */
+.credit{margin-top:var(--s4);text-align:center}
+.credit:before{content:"";display:block;width:44px;height:3px;border-radius:3px;margin:0 auto var(--s3);background:linear-gradient(90deg,var(--pri),#FF8A5B)}
+.cr-by{margin:0;font-family:var(--fl);font-weight:500;font-size:14px;letter-spacing:.2px;color:var(--mut)}
+.cr-by b{font-weight:700;background:linear-gradient(90deg,var(--pri),#FF8A5B);-webkit-background-clip:text;background-clip:text;color:transparent}
+.credit .ver{margin-top:var(--s1)}
+/* ＋ / ✕ আইকন: SVG, ঠিক মাঝখানে; খুললে ৪৫° ঘুরে ✕ হয় */
+.tog .pl,.fab{display:grid;place-items:center;padding:0;font-size:0;line-height:0}
+.tog .pl svg,.fab svg{display:block;width:22px;height:22px;transition:transform .3s cubic-bezier(.3,.7,.3,1)}
+.fab svg{width:26px;height:26px}
+.tog.open .pl{transform:none}
+.tog.open .pl svg,.fab.open svg{transform:rotate(45deg)}
+
+/* ===== ফাইল সাপোর্ট: পিডিএফ, অডিও, ভিডিও/ছবি/ডকুমেন্ট ===== */
+.k-pdf{--k1:#E5484D;--k2:#8E1F2A}.k-audio{--k1:#7A5BFF;--k2:#2F4BFF}.k-video{--k1:#27346B;--k2:#0A0F1F}.k-image{--k1:#FF8A5B;--k2:#C2410C}
+.k-doc{--k1:#3B82F6;--k2:#1B3C9E}.k-file{--k1:#66718C;--k2:#2C3550}.k-drive,.k-gdoc{--k1:#12A66B;--k2:#0B5E3C}
+.tseg.two{grid-template-columns:repeat(2,1fr);width:100%!important;min-width:0!important}
+.dz{font:inherit;color:var(--ink);display:grid;justify-items:center;gap:4px;width:100%;padding:22px 16px;text-align:center;cursor:pointer;background:var(--field);border:1.5px dashed color-mix(in srgb,var(--pri) 45%,var(--line));border-radius:18px;transition:background .2s,border-color .2s}
+.dz:hover,.dz.over{background:var(--tint);border-color:var(--pri)}
+.dz .dzi{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--pri),#7A5BFF);margin-bottom:6px}
+.dz .dzi svg,.fic svg{display:block;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.dz .dzi svg{width:24px;height:24px}
+.dz b{font-family:var(--fl);font-weight:700;font-size:16px}
+.dz small{font-size:12.5px;color:var(--mut);line-height:1.5}
+.fl{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;min-width:0}.fl:empty{display:none}#srcFile{min-width:0;max-width:100%}
+.fi{display:flex;align-items:center;gap:10px;min-width:0;max-width:100%;overflow:hidden;padding:8px 8px 8px 10px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.fi .fic{flex:none;width:36px;height:36px;border-radius:11px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--k1),var(--k2))}
+.fi .fic svg{width:18px;height:18px}
+.fi .fn{flex:1;min-width:0;font-family:var(--fl);font-weight:600;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fi small{flex:none;color:var(--mut);font-size:12px;white-space:nowrap}.fi .x{flex:none}
+.play.fk{background:linear-gradient(160deg,var(--k1),var(--k2))}
+.play.fk.miss{filter:grayscale(.9) brightness(.85)}
+.shade{position:absolute;inset:0;background:linear-gradient(rgba(10,15,31,.3),rgba(10,15,31,.78))}
+.fc{position:relative;z-index:1;display:grid;justify-items:center;gap:8px;padding:16px 18px;text-align:center;color:#fff;max-width:100%}
+.fc .fic{width:60px;height:60px;border-radius:19px;display:grid;place-items:center;background:rgba(255,255,255,.18);box-shadow:0 0 0 6px rgba(255,255,255,.1)}
+.fc .fic svg{width:30px;height:30px}
+.fc b{font-family:var(--fl);font-weight:700;font-size:15px;line-height:1.4;max-width:100%;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-break:break-word}
+.fc small{font-size:12px;opacity:.85;line-height:1.4}
+.aud{display:grid;gap:12px;justify-items:center;padding:18px 12px 12px;background:linear-gradient(160deg,var(--k1),var(--k2))}
+.aud .fc{padding:0 6px}.aud .fc .fic{width:52px;height:52px}
+.aud audio{width:100%;max-width:100%}
+.fr video{position:absolute;inset:0;width:100%;height:100%;background:#000;object-fit:contain;border:0}
+.fr.on.a{aspect-ratio:auto!important;width:100%}
+.pov.p-pdf{background:#E5484D}.pov.p-audio{background:#6D4DF2}.pov.p-video{background:#27346B}.pov.p-image{background:#E8663C}
+.pov.p-doc{background:#2563EB}.pov.p-file{background:#5F6B7C}.pov.p-drive,.pov.p-gdoc{background:#12A66B}
+.ttl{margin:0;font-family:var(--fl);font-weight:700;font-size:16.5px;line-height:1.45;word-break:break-word}
+.fm{margin:0;font-size:12.5px;color:var(--mut);line-height:1.5;word-break:break-all}
+/* ===== ক্যাটাগরি ও ধরনের ফিল্টার: প্রিমিয়াম লুক ===== */
+.tools .chips{gap:10px;padding:12px 16px 8px;margin:0 -16px;scroll-padding:0 16px;scroll-snap-type:x proximity;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent 100%)}
+.tools .chips .chip{scroll-snap-align:start;flex:none;height:42px;padding:0 8px 0 18px;gap:10px;display:inline-flex;align-items:center;font-size:14.5px;font-weight:700;letter-spacing:.1px;border:1px solid var(--line);background:var(--card);box-shadow:0 1px 2px rgba(15,23,48,.05),0 6px 14px -10px rgba(34,52,120,.35);transition:transform .18s,box-shadow .2s,background .2s,color .2s}
+.tools .chips .chip:active{transform:scale(.96)}
+.tools .chips .chip em{font-style:normal;min-width:26px;height:26px;padding:0 8px;display:inline-grid;place-items:center;border-radius:99px;font-size:12px;font-weight:700;color:var(--pri);background:color-mix(in srgb,var(--pri) 12%,transparent)}
+.tools .chips .chip.on{color:#fff;border-color:transparent;background:linear-gradient(135deg,var(--pri),#7A5BFF);box-shadow:0 12px 22px -10px color-mix(in srgb,var(--pri) 80%,transparent)}
+.tools .chips .chip.on em{color:#fff;background:rgba(255,255,255,.24)}
+.tp{margin:4px 0 16px}
+.tph{display:flex;align-items:center;gap:10px;margin:0 2px 10px;font-family:var(--fl);font-weight:700;font-size:12.5px;letter-spacing:.4px;color:var(--mut)}
+.tph:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.tts{scroll-padding:0 2px;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(92px,1fr);gap:10px;overflow-x:auto;padding:4px 2px 14px;margin:0 -2px;scrollbar-width:none;scroll-snap-type:x proximity}
+.tts::-webkit-scrollbar{display:none}
+.tt[data-tf=all]{--k1:var(--pri);--k2:#7A5BFF}
+.tt{scroll-snap-align:start;position:relative;display:grid;justify-items:center;gap:7px;padding:14px 8px 12px;font:inherit;color:var(--ink);cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:0 1px 2px rgba(15,23,48,.04);transition:transform .18s,box-shadow .22s,border-color .22s,background .22s}
+.tt:active{transform:scale(.96)}
+.tt .ti{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--k1),var(--k2));box-shadow:0 8px 16px -8px var(--k1)}
+.tt .ti svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.tt b{font-family:var(--fl);font-weight:700;font-size:13.5px;line-height:1.2;white-space:nowrap}
+.tt i{font-style:normal;font-size:12px;font-weight:600;color:var(--mut);line-height:1}
+.tt.on{border-color:var(--k1);background:color-mix(in srgb,var(--k1) 9%,var(--card));box-shadow:0 0 0 1.5px var(--k1),0 16px 26px -16px var(--k1)}
+.tt.on i{color:var(--k1)}
+.tt.on:after{content:"✓";position:absolute;top:8px;right:9px;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700;color:#fff;background:var(--k1)}
+.dkt{position:relative;overflow:hidden;isolation:isolate;display:flex;align-items:center;gap:14px;width:100%;max-width:720px;margin:var(--s5) auto 0;padding:16px 18px;font:inherit;text-align:left;cursor:pointer;color:#fff;border:1px solid rgba(255,255,255,.14);border-radius:22px;background:linear-gradient(135deg,#0D1640 0%,#1A2878 58%,#3550FF 130%);box-shadow:0 20px 36px -20px rgba(25,40,140,.85),inset 0 1px 0 rgba(255,255,255,.16);transition:transform .15s,box-shadow .3s}
+.dkt:before{content:"";position:absolute;z-index:-1;right:-50px;top:-70px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(122,91,255,.6),transparent 66%)}
+.dkt:after{content:"";position:absolute;z-index:-1;left:-30px;bottom:-60px;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,rgba(255,138,91,.28),transparent 68%)}
+.dkt:active{transform:scale(.985)}
+.dkt[aria-expanded=true]{box-shadow:0 24px 40px -18px rgba(47,75,255,.75),inset 0 1px 0 rgba(255,255,255,.2)}
+.dkt .dki{flex:none;width:46px;height:46px;border-radius:15px;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:transform .5s}
+.dkt[aria-expanded=true] .dki{transform:rotate(90deg)}
+.dkt .dki svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.dkt .dkm{flex:1;min-width:0;display:grid;gap:3px}
+.dkt .dkl{font-family:var(--fd);font-size:19.5px;line-height:1.25;-webkit-text-stroke:.6px currentColor}
+.dkt .dks{font-family:var(--fl);font-weight:600;font-size:12px;letter-spacing:.3px;color:rgba(255,255,255,.7)}
+.dkt .sw{flex:none;position:relative;width:52px;height:31px;border-radius:99px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.22);transition:background .25s}
+.dkt .sw i{position:absolute;top:3px;left:3px;width:23px;height:23px;border-radius:50%;background:#fff;box-shadow:0 3px 8px rgba(5,10,40,.4);transition:transform .28s cubic-bezier(.3,.7,.3,1)}
+.dkt[aria-expanded=true] .sw{background:linear-gradient(135deg,#34D399,#12A66B);border-color:transparent}
+.dkt[aria-expanded=true] .sw i{transform:translateX(21px)}
+.dock{padding:16px;display:grid;gap:14px;border-radius:24px}
+.dsc{border-radius:20px;padding:16px;background:linear-gradient(160deg,color-mix(in srgb,var(--pri) 9%,var(--card)),var(--card));border:1px solid var(--line)}
+.dsh{display:flex;align-items:center;gap:12px}
+.dsi{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#12A66B,#0B7A4F);box-shadow:0 10px 18px -10px #12A66B}
+.dsi svg,.dact .dai svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.dsh>div{flex:1;min-width:0;display:grid;gap:2px}
+.dsh b{font-family:var(--fl);font-weight:700;font-size:16px}
+.dsh small{font-size:12.5px;color:var(--mut);line-height:1.4}
+.dchip{flex:none;display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:99px;font-family:var(--fl);font-weight:700;font-size:12px}
+.dchip:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.dchip.ok{color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,transparent)}
+.dchip.warn{color:#D97706;background:rgba(245,158,11,.16)}
+.dst{display:grid;grid-template-columns:repeat(3,1fr);margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.dst>div{display:grid;gap:3px;text-align:center;padding:0 4px}
+.dst>div+div{border-left:1px solid var(--line)}
+.dst b{font-family:var(--fl);font-weight:700;font-size:17px;line-height:1.3}
+.dst span{font-size:11.5px;color:var(--mut)}
+.dwn{margin:12px 0 0;padding:10px 12px;border-radius:12px;font-size:12.5px;line-height:1.6;color:#B45309;background:rgba(245,158,11,.13)}
+.dwn[hidden]{display:none}
+.dlab{display:flex;align-items:center;gap:10px;margin:2px 2px -4px;font-family:var(--fl);font-weight:700;font-size:12.5px;letter-spacing:.4px;color:var(--mut)}
+.dlab:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.dgr{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dact{position:relative;display:grid;align-content:start;gap:5px;text-align:left;padding:16px 14px;font:inherit;color:var(--ink);cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:20px;transition:transform .15s,box-shadow .2s}
+.dact:active{transform:scale(.97)}
+.dact .dai{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;color:#fff;margin-bottom:7px;background:linear-gradient(135deg,var(--pri),#7A5BFF);box-shadow:0 10px 18px -10px var(--pri)}
+.dact .dai.o{background:linear-gradient(135deg,#FF8A5B,#E8663C);box-shadow:0 10px 18px -10px #E8663C}
+.dact b{font-family:var(--fl);font-weight:700;font-size:15px}
+.dact small{font-size:12.5px;line-height:1.5;color:var(--mut)}
+.dact.pri{color:#fff;border-color:transparent;background:linear-gradient(145deg,#2F4BFF,#6A4DFF);box-shadow:0 18px 30px -16px rgba(47,75,255,.85)}
+.dact.pri small{color:rgba(255,255,255,.82)}
+.dact.pri .dai{background:rgba(255,255,255,.2);box-shadow:none}
+.tmx{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tmt{position:relative;display:grid;gap:9px;justify-items:stretch;padding:10px;font:inherit;color:var(--ink);text-align:center;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:18px;transition:transform .15s,box-shadow .22s,border-color .22s,background .22s}
+.tmt:active{transform:scale(.96)}
+.tmt .sv{position:relative;height:56px;border-radius:11px;border:1px solid rgba(128,138,170,.3);overflow:hidden}
+.tmt .sv:before{content:"";position:absolute;left:9px;right:9px;top:10px;height:9px;border-radius:5px;background:var(--a)}
+.tmt .sv:after{content:"";position:absolute;left:9px;width:58%;top:27px;height:7px;border-radius:4px;background:var(--b)}
+.sv.l{background:#F4F6FB;--a:#2F4BFF;--b:#C9D1E6}
+.sv.d{background:#0A0F1F;--a:#6F8BFF;--b:#2A3560}
+.sv.a{background:linear-gradient(115deg,#F4F6FB 50%,#0A0F1F 50%);--a:#7A5BFF;--b:#8D98B8}
+.tmt b{font-family:var(--fl);font-weight:700;font-size:13px}
+.tmt.on{border-color:var(--pri);background:color-mix(in srgb,var(--pri) 7%,var(--card));box-shadow:0 0 0 1.5px var(--pri),0 14px 24px -16px var(--pri)}
+.tmt.on:after{content:"✓";position:absolute;top:6px;right:6px;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700;color:var(--pri-ink);background:var(--pri)}
+.dpv{margin:0;display:flex;align-items:center;justify-content:center;gap:8px;text-align:center;font-size:12.5px;line-height:1.5;color:var(--mut)}
+.dpv svg{flex:none;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.dkt+.dock{margin-top:12px;animation:dkin .3s ease}
+.dock[hidden]{display:none}
+@keyframes dkin{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+/* ফুলস্ক্রিন ভিউয়ার */
+#viewer{position:fixed;inset:0;z-index:55;display:flex;flex-direction:column;background:var(--bg);color:var(--ink)}
+#viewer[hidden]{display:none}
+.vh{flex:none;display:flex;align-items:center;gap:8px;padding:calc(env(safe-area-inset-top,0px) + 8px) 12px 8px;background:var(--card);border-bottom:1px solid var(--line)}
+.vh b{flex:1;min-width:0;font-family:var(--fl);font-weight:700;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vh .gh{flex:none;padding:8px 12px}
+.vb{touch-action:pan-x pan-y;position:relative;flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;padding:10px;background:color-mix(in srgb,var(--ink) 9%,var(--bg))}
+.vb.ifr{padding:0;overflow:hidden}
+.vb iframe{display:block;width:100%;height:100%;border:0;background:#fff}
+.vb.img{display:grid;place-items:center}
+.vb.img img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px}
+.pgs{position:relative;display:grid;gap:10px;margin:0 auto}
+.pg{width:100%;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 10px rgba(15,23,48,.18)}
+.pg canvas{display:block;width:100%;height:100%}
+.vmsg{display:grid;gap:14px;justify-items:center;text-align:center;padding:48px 20px;color:var(--mut);font-size:14.5px;line-height:1.6}
+.vbar{flex:none;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 12px calc(env(safe-area-inset-bottom,0px) + 8px);background:var(--card);border-top:1px solid var(--line)}
+.vbar[hidden]{display:none}
+.vbar span{font-family:var(--fl);font-weight:600;font-size:13.5px;color:var(--mut)}
+.vbar .gh{min-width:44px}
+</style>
+</head>
+<body>
+<noscript><p style="padding:24px;text-align:center">এই অ্যাপ চালাতে JavaScript চালু থাকতে হবে।</p></noscript>
+<div class="wrap">
+  <header class="g hero">
+    <div class="brand"><img class="logo" src="assets/logo-mark.svg" alt="" width="32" height="32">শিখন ভল্ট</div>
+    <div class="hr">
+      <div>
+        <h1>দেখে রাখা নয়,<br><em>শিখে কাজে লাগানোর</em> জায়গা</h1>
+        <p class="sub">লিংক দিন, নোট লিখুন, কাজে লাগান।</p>
+      </div>
+      
+    </div>
+    <div class="stats">
+      <div class="st"><b id="sT">০</b><span>মোট আইটেম</span></div>
+      <div class="st"><b id="sP">০</b><span>কাজে লাগানো বাকি</span></div>
+      <div class="st"><b id="sD">০</b><span>কাজে লাগিয়েছি</span></div>
+    </div>
+    <div class="bar"><i id="ringfill"></i></div><div class="barl"><span>কাজে লাগানোর হার</span><b id="pct">০%</b></div>
+  </header>
+
+  <button class="g tog" id="tog" aria-expanded="false"><span class="pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><span class="tl">নতুন কিছু যোগ করুন</span><span class="hn" id="hn">খুলতে ট্যাপ করুন</span></button>
+  <section class="g add" id="addbox" hidden>
+    <h2>আইটেমের তথ্য দিন</h2>
+    <div class="tseg two" role="tablist" aria-label="যোগ করার উপায়"><button class="tb on" type="button" data-src="link" role="tab" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/></svg>লিংক দিয়ে</button><button class="tb" type="button" data-src="file" role="tab" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7a2 2 0 012-2h4l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H6a2 2 0 01-2-2z"/></svg>ফোন থেকে ফাইল</button></div>
+    <div id="srcLink"><label for="url">লিংক পেস্ট করুন</label><input id="url" type="url" inputmode="url" placeholder="ভিডিও, পিডিএফ, অডিও বা ফাইলের লিংক…"><div class="det" id="det"></div><div class="hint">ইউটিউব, ফেসবুক, ইনস্টাগ্রাম, টিকটক, পিডিএফ, অডিও (MP3), গুগল ড্রাইভ, ড্রপবক্স, স্পটিফাই, সাউন্ডক্লাউড ও সরাসরি ফাইল লিংক চলবে।</div></div>
+    <div id="srcFile" hidden><label for="dz">ফাইল বেছে নিন</label><button class="dz" id="dz" type="button"><span class="dzi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V5"/><path d="M7.5 8.5L12 4l4.5 4.5"/><path d="M5 20h14"/></svg></span><b>ফাইল বেছে নিতে ট্যাপ করুন</b><small>পিডিএফ, অডিও, ভিডিও, ছবি, ওয়ার্ড/এক্সেল ইত্যাদি · একসঙ্গে একাধিক বাছাই করা যায়</small></button><div class="fl" id="flist"></div><div class="det" id="fdet"></div><div class="hint">ফাইল শুধু এই ফোনেই থাকে (অ্যাপের ভেতরে), কোথাও আপলোড হয় না।</div></div>
+    <div><label for="ttl">শিরোনাম (ঐচ্ছিক)</label><input id="ttl" placeholder="ফাঁকা রাখলে ফাইলের নাম বা লিংক থেকে নেওয়া হবে" autocomplete="off"></div>
+    <div><label for="cat">বিষয় / ক্যাটাগরি</label><input id="cat" list="cats" placeholder="যেমন: ব্যবসা, ডিজাইন, ইংরেজি"><datalist id="cats"></datalist></div>
+    <div><label for="note">এটি কী নিয়ে? কীভাবে কাজে লাগাবেন?</label><textarea id="note" placeholder="যেমন: Facebook Ads-এর টার্গেটিং টিপস—আগামী সপ্তাহে আমার পেজে ট্রাই করব"></textarea></div>
+    <div><label for="tfile">থাম্বনেইল (ঐচ্ছিক)</label><input id="tfile" type="file" accept="image/*"><div class="hint">ইউটিউবের থাম্বনেইল নিজে থেকেই আসে। অন্য ক্ষেত্রে চাইলে একটি ছবি দিতে পারেন।</div></div>
+    <button class="btn" id="save">ভল্টে সংরক্ষণ করুন</button>
+  </section>
+
+  <div class="sec"><h3>আপনার লাইব্রেরি</h3><span id="cnt"></span></div>
+  <div id="sent" aria-hidden="true" style="height:1px;margin-bottom:-1px"></div>
+  <div class="tools">
+    <div class="sb"><input id="q" type="search" placeholder="নোট, শিরোনাম বা বিষয় দিয়ে খুঁজুন…" aria-label="খুঁজুন" autocomplete="off"><button class="qx" id="qx" type="button" aria-label="মুছুন" hidden>✕</button></div>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="tp" id="tp" hidden><div class="tph"><span>ধরন অনুযায়ী দেখুন</span></div><div class="tts" id="tchips" role="group" aria-label="ধরন অনুযায়ী ফিল্টার"></div></div>
+  <div class="grid" id="grid"></div>
+
+  <button class="g dkt" id="dkTog" type="button" aria-expanded="false" aria-controls="dock"><span class="dki"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 14.5a1.6 1.6 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.6 1.6 0 00-1.8-.3 1.6 1.6 0 00-1 1.5V21a2 2 0 11-4 0v-.1a1.6 1.6 0 00-1-1.5 1.6 1.6 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.6 1.6 0 00.3-1.8 1.6 1.6 0 00-1.5-1H3a2 2 0 110-4h.1a1.6 1.6 0 001.5-1 1.6 1.6 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.6 1.6 0 001.8.3h0a1.6 1.6 0 001-1.5V3a2 2 0 114 0v.1a1.6 1.6 0 001 1.5 1.6 1.6 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.6 1.6 0 00-.3 1.8v0a1.6 1.6 0 001.5 1H21a2 2 0 110 4h-.1a1.6 1.6 0 00-1.5 1z"/></svg></span><span class="dkm"><span class="dkl">ব্যাকআপ ও সেটিংস</span><span class="dks">ডেটা সুরক্ষা · থিম</span></span><span class="sw" aria-hidden="true"><i></i></span></button>
+  <section class="g dock" id="dock" aria-label="ব্যাকআপ ও সেটিংস" hidden>
+    <div class="dsc">
+      <div class="dsh"><span class="dsi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg></span><div><b>আপনার ডেটা</b><small id="bkInfo">শুধু এই ফোনেই থাকে, কোনো সার্ভারে যায় না</small></div><span class="dchip ok" id="dkSt">সুরক্ষিত</span></div>
+      <div class="dst"><div><b id="dkN">০</b><span>আইটেম</span></div><div><b id="dkF">০</b><span>লোকাল ফাইল</span></div><div><b id="dkL">—</b><span>সর্বশেষ ব্যাকআপ</span></div></div>
+      <p class="dwn" id="dkW" hidden></p>
+    </div>
+    <div class="dlab">ব্যাকআপ</div>
+    <div class="dgr">
+      <button class="dact pri" id="exp" type="button"><span class="dai"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7.5 11.5L12 16l4.5-4.5"/><path d="M5 20h14"/></svg></span><b>ব্যাকআপ নিন</b><small>লিংক, নোট ও তালিকা একটি .json ফাইলে</small></button>
+      <button class="dact" id="imp" type="button"><span class="dai o"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V5"/><path d="M7.5 8.5L12 4l4.5 4.5"/><path d="M5 20h14"/></svg></span><b>ফিরিয়ে আনুন</b><small>আগের ব্যাকআপ ফাইল থেকে লাইব্রেরি ফেরত</small></button>
+    </div>
+    <div class="dlab">থিম</div>
+    <div class="tmx" role="radiogroup" aria-label="থিম">
+      <button class="tmt" type="button" role="radio" data-tm="auto"><span class="sv a"></span><b>স্বয়ংক্রিয়</b></button>
+      <button class="tmt" type="button" role="radio" data-tm="light"><span class="sv l"></span><b>হালকা</b></button>
+      <button class="tmt" type="button" role="radio" data-tm="dark"><span class="sv d"></span><b>গাঢ়</b></button>
+    </div>
+    <p class="dpv"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>নিয়মিত ব্যাকআপ নিন, ডেটা হারানোর ঝুঁকি এড়ান</p>
+  </section>
+  <footer class="credit">
+    <p class="cr-by">Designed &amp; Developed by <b>Abhi</b></p>
+    <p class="ver">শিখন ভল্ট · আপনার শেখার ব্যক্তিগত লাইব্রেরি</p>
+  </footer>
+  <input id="file" type="file" accept=".json,application/json,text/plain" hidden><input id="pfile" type="file" multiple hidden><input id="rfile" type="file" hidden><input id="tfile2" type="file" accept="image/*" hidden>
+</div>
+<button class="fab" id="fab" aria-label="নতুন কিছু যোগ করুন"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div id="viewer" hidden role="dialog" aria-modal="true" aria-label="ফাইল দেখুন"><div class="vh"><b id="vt"></b><button class="gh" id="vo" type="button">↗ বাইরে খুলুন</button><button class="gh" id="vx" type="button" aria-label="বন্ধ করুন">✕</button></div><div class="vb" id="vb"></div><div class="vbar" id="vbar" hidden><button class="gh" id="vzo" type="button" aria-label="ছোট করুন">−</button><span id="vpg"></span><button class="gh" id="vzi" type="button" aria-label="বড় করুন">+</button></div></div>
+<div id="modal" hidden><button id="mx">✕ বন্ধ করুন</button><div class="mbox" id="mbody"></div></div>
+
+<script>
+(function(){
+var KEY='shikhon-vault-v1',items=[],filter='সব',query='',playing={},openNb={},openMore={},pend='',pickFor='',tmr;
+var $=function(i){return document.getElementById(i)};
+var NAMES={youtube:'ইউটিউব',facebook:'ফেসবুক',instagram:'ইনস্টাগ্রাম',tiktok:'টিকটক',other:'অন্যান্য',pdf:'পিডিএফ',audio:'অডিও',video:'ভিডিও',image:'ছবি',doc:'ডকুমেন্ট',file:'ফাইল',drive:'গুগল ড্রাইভ',gdoc:'গুগল ডক'};
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function bn(n){return String(n).replace(/\d/g,function(d){return '০১২৩৪৫৬৭৮৯'[d]})}
+function fmt(t){if(!t)return '';try{return new Date(t).toLocaleDateString('bn-BD',{day:'numeric',month:'long',year:'numeric'})}catch(e){return new Date(t).toDateString()}}
+function find(id){return items.filter(function(x){return x.id===id})[0]}
+function load(){try{items=JSON.parse(localStorage.getItem(KEY)||'[]')||[]}catch(e){items=[]}if(!Array.isArray(items))items=[]}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(items))}catch(e){}}
+
+/* ───── ফাইল সাপোর্ট: ধরন চেনা, লোকাল ফাইল (IndexedDB), ভিউয়ার ───── */
+var EXTS={audio:'mp3 m4a aac wav ogg oga opus flac weba amr wma',video:'mp4 webm mov m4v mkv 3gp avi',image:'jpg jpeg png gif webp bmp svg avif',doc:'doc docx ppt pptx xls xlsx odt ods odp rtf'},FIL='txt csv zip rar 7z epub json apk',
+MIME={mp3:'audio/mpeg',m4a:'audio/mp4',aac:'audio/aac',wav:'audio/wav',ogg:'audio/ogg',oga:'audio/ogg',opus:'audio/ogg',flac:'audio/flac',weba:'audio/webm',pdf:'application/pdf',mp4:'video/mp4',webm:'video/webm',mov:'video/quicktime',m4v:'video/mp4',jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',gif:'image/gif',webp:'image/webp'},
+HAVE=null,tfilter='all',TL={video:'ভিডিও',audio:'অডিও',pdf:'পিডিএফ',image:'ছবি',other:'অন্যান্য'},AUTO=false,OU=[],pf=[],srcMode='link',relinkFor='',VS=null,PJP=null,ZS=[1,1.5,2,3];
+function extOf(n){var m=String(n||'').split(/[?#]/)[0].match(/\.([a-z0-9]{1,6})$/i);return m?m[1].toLowerCase():''}
+function kindOf(name,mime,remote){var e=extOf(name);mime=mime||'';
+  if(e==='pdf'||mime==='application/pdf')return 'pdf';
+  for(var k in EXTS){if((' '+EXTS[k]+' ').indexOf(' '+e+' ')>-1)return k}
+  if(/^audio\//.test(mime))return 'audio';if(/^video\//.test(mime))return 'video';if(/^image\//.test(mime))return 'image';
+  if(!e&&!mime)return remote?'':'file';
+  if(remote)return (' '+FIL+' ').indexOf(' '+e+' ')>-1?'file':'';
+  return 'file'}
+function grp(i){var r=res(i),p=r.p,k=r.k||'embed';if(p==='youtube'||p==='facebook'||p==='instagram'||p==='tiktok'||k==='video')return 'video';if(p==='audio'||k==='audio')return 'audio';if(k==='pdf')return 'pdf';if(k==='image')return 'image';return 'other'}
+function newId(){return Date.now().toString(36)+Math.random().toString(36).slice(2,5)}
+function sz(n){if(!n)return '';return n<1048576?bn(Math.max(1,Math.round(n/1024)))+' KB':bn((n/1048576).toFixed(1))+' MB'}
+function fname(u){try{var U=new URL(u),p=decodeURIComponent(U.pathname.split('/').filter(Boolean).pop()||'');return p||U.hostname}catch(e){return u||''}}
+function lbl(r){return r.lb||NAMES[r.p]||NAMES.other}
+function ttlOf(i){return i.title||(i.file&&i.file.name)||fname(i.url)||''}
+function miss(i){return !!(i.file&&HAVE&&!HAVE[i.id])}
+var ICO={
+  pdf:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg>',
+  audio:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15v-3a8 8 0 0116 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>',
+  video:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/></svg>',
+  image:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="1.8"/><path d="M4 18l5-5 4 4 3-3 4 4"/></svg>',
+  file:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z"/><path d="M14 3v5h5"/></svg>'};
+ICO.doc=ICO.drive=ICO.gdoc=ICO.pdf;
+ICO.all='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg>';
+function ico(k){return ICO[k]||ICO.file}
+/* লোকাল ফাইল রাখার জায়গা: IndexedDB (localStorage-এ বড় ফাইল ধরে না) */
+var DB=null;
+function idb(){return DB||(DB=new Promise(function(ok,no){var q=indexedDB.open('shikhon-files',1);q.onupgradeneeded=function(){q.result.createObjectStore('f')};q.onsuccess=function(){ok(q.result)};q.onerror=function(){DB=null;no(q.error)}}))}
+function tx(mode,fn){return idb().then(function(d){return new Promise(function(ok,no){var t=d.transaction('f',mode),r=fn(t.objectStore('f'));t.oncomplete=function(){ok(r&&r.result)};t.onerror=t.onabort=function(){no(t.error)}})})}
+function fput(k,b){return tx('readwrite',function(s){return s.put(b,k)})}
+function fget(k){return tx('readonly',function(s){return s.get(k)})}
+function fdel(k){return tx('readwrite',function(s){return s.delete(k)})}
+function fkeys(){return tx('readonly',function(s){return s.getAllKeys()})}
+function cleanOrphans(){fkeys().then(function(ks){ks.forEach(function(k){if(!find(k)){fdel(k).catch(function(){});if(HAVE)delete HAVE[k]}})}).catch(function(){})}
+function loadHave(){fkeys().then(function(ks){HAVE={};ks.forEach(function(k){HAVE[k]=1});render()}).catch(function(){HAVE={};render()})}
+/* মিডিয়া (অডিও/ভিডিও) চালু করা: লোকাল ফাইল হলে IndexedDB থেকে এনে বসায়, শেষ শোনার জায়গা মনে রাখে */
+function bindMedia(el,i){var saved=i.pos||0;
+  el.addEventListener('loadedmetadata',function(){if(saved>3&&el.duration&&saved<el.duration-3){try{el.currentTime=saved}catch(e){}}});
+  var sv=function(){var t=el.ended?0:el.currentTime;if(isFinite(t)&&Math.abs((i.pos||0)-t)>1){i.pos=t;persist()}};
+  el.addEventListener('pause',sv);el.addEventListener('ended',sv)}
+function hydrate(){
+  OU=OU.filter(function(o){if(document.body.contains(o.el))return true;try{URL.revokeObjectURL(o.u)}catch(e){}return false});
+  [].forEach.call(document.querySelectorAll('[data-aid]'),function(el){if(el._h)return;el._h=1;var id=el.dataset.aid,i=find(id);if(!i)return;bindMedia(el,i);var want=AUTO;
+    var go=function(){if(!want)return;try{var p=el.play&&el.play();if(p&&p.catch)p.catch(function(){})}catch(e){}};
+    if(el.dataset.blob){fget(id).then(function(b){if(!b)throw 0;var u=URL.createObjectURL(b);OU.push({u:u,el:el});el.src=u;go()}).catch(function(){toast('ফাইলটি খোলা যায়নি')})}
+    else go()})}
+function ysrc(i,r){var u=r.src;if(r.p==='youtube'){u+='&enablejsapi=1&origin='+encodeURIComponent(location.origin);if(i.pos>3)u+='&start='+Math.floor(i.pos)}return u}
+document.addEventListener('load',function(e){var f=e.target;if(!f||f.tagName!=='IFRAME'||!/youtube\.com\/embed/.test(f.src))return;try{f.contentWindow.postMessage(JSON.stringify({event:'listening',id:1,channel:'widget'}),'*')}catch(x){}},true);
+var YTL={};
+window.addEventListener('message',function(e){if(!/(^|\.)youtube\.com$/.test(String(e.origin||'').replace(/^https?:\/\//,'')))return;var d;try{d=typeof e.data==='string'?JSON.parse(e.data):e.data}catch(x){return}
+  if(!d||d.event!=='infoDelivery'||!d.info||typeof d.info.currentTime!=='number')return;
+  var fr=[].filter.call(document.querySelectorAll('.fr iframe'),function(f){return f.contentWindow===e.source})[0];if(!fr)return;var h=fr.closest('.fr');if(!h||h.id.charAt(0)!=='f')return;
+  var i=find(h.id.slice(1));if(!i)return;var st=d.info.playerState,t=st===0?0:d.info.currentTime,now=Date.now();
+  i.pos=t;if(st===0||st===2||now-(YTL[i.id]||0)>20000){YTL[i.id]=now;persist()}});
+window.addEventListener('pagehide',function(){persist()});document.addEventListener('visibilitychange',function(){if(document.hidden)persist()});
+/* অ্যাপের বাইরের কোনো অ্যাপে খোলা / শেয়ার */
+function shareFile(i){
+  if(!i||!i.file)return;if(miss(i)){toast('ফাইলটি এই ফোনে নেই');return}
+  var P=window.Capacitor&&window.Capacitor.Plugins,nm=(i.file.name||'file').replace(/[\\\/:*?"<>|]+/g,'_');
+  fget(i.id).then(function(b){if(!b)throw 0;
+    if(P&&P.Filesystem&&P.Share){
+      return new Promise(function(ok,no){var rd=new FileReader();rd.onload=function(){ok(String(rd.result).split(',')[1]||'')};rd.onerror=no;rd.readAsDataURL(b)})
+        .then(function(b64){return P.Filesystem.writeFile({path:'shared/'+nm,data:b64,directory:'CACHE',recursive:true})})
+        .then(function(w){return P.Share.share({title:nm,url:w.uri,dialogTitle:'ফাইলটি খুলুন বা শেয়ার করুন'})})}
+    var u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=nm;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000)
+  }).catch(function(e){if(/cancel/i.test(String(e&&e.message||e)))return;toast('ফাইলটি খোলা যায়নি')})}
+/* পিডিএফ ইঞ্জিন (pdf.js): আগে অ্যাপের ভেতরের কপি, না থাকলে ইন্টারনেট থেকে */
+var PJL=['assets/pdfjs/','https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/'];
+function loadPdf(){
+  if(window.pdfjsLib&&window.pdfjsLib.getDocument)return Promise.resolve(window.pdfjsLib);if(PJP)return PJP;
+  PJP=new Promise(function(ok,no){(function at(n){if(n>=PJL.length){PJP=null;no(new Error('pdfjs'));return}
+    var sc=document.createElement('script');sc.src=PJL[n]+'pdf.min.js';
+    sc.onload=function(){try{window.pdfjsLib.GlobalWorkerOptions.workerSrc=PJL[n]+'pdf.worker.min.js';ok(window.pdfjsLib)}catch(e){at(n+1)}};
+    sc.onerror=function(){sc.remove();at(n+1)};document.head.appendChild(sc)})(0)});
+  return PJP}
+function updPg(){var s=VS;if(!s||!s.wrap)return;var ch=s.wrap.children,vb=$('vb'),y=vb.scrollTop-s.wrap.offsetTop+vb.clientHeight*.35,lo=0,hi=ch.length-1;
+  while(lo<hi){var m=(lo+hi+1)>>1;if(ch[m].offsetTop<=y)lo=m;else hi=m-1}
+  s.cur=lo+1;$('vpg').textContent='পৃষ্ঠা '+bn(s.cur)+' / '+bn(ch.length)}
+function drawPg(el){if(el._on)return;el._on=1;var s=VS,n=+el.dataset.n,k=el._k=(el._k||0)+1;if(!s)return;
+  s.pdf.getPage(n).then(function(p){if(el._k!==k||VS!==s)return;
+    var w=el.clientWidth||320,v0=p.getViewport({scale:1}),dpr=Math.max(1,Math.min(window.devicePixelRatio||1,2.5,3000/w)),v=p.getViewport({scale:w/v0.width*dpr}),c=document.createElement('canvas');
+    c.width=Math.floor(v.width);c.height=Math.floor(v.height);el.style.aspectRatio=v0.width+' / '+v0.height;
+    var t=p.render({canvasContext:c.getContext('2d'),viewport:v});el._t=t;
+    return t.promise.then(function(){if(el._k!==k)return;el.innerHTML='';el.appendChild(c)})}).catch(function(){})}
+function clrPg(el){if(!el._on)return;el._on=0;el._k=(el._k||0)+1;try{if(el._t)el._t.cancel()}catch(e){}el._t=null;var c=el.firstChild;if(c&&c.width){c.width=c.height=0}el.innerHTML=''}
+function buildPages(go){var s=VS,vb=$('vb');if(!s||!s.pdf)return;if(s.io)s.io.disconnect();vb.innerHTML='';
+  var w=document.createElement('div');w.className='pgs';w.style.width=(s.z*100)+'%';vb.appendChild(w);s.wrap=w;
+  s.pdf.getPage(1).then(function(p){if(VS!==s)return;var v=p.getViewport({scale:1}),n=s.pdf.numPages;
+    for(var k=1;k<=n;k++){var d=document.createElement('div');d.className='pg';d.dataset.n=k;d.style.aspectRatio=v.width+' / '+v.height;w.appendChild(d)}
+    s.io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)drawPg(e.target);else clrPg(e.target)})},{root:vb,rootMargin:'100% 0px'});
+    [].forEach.call(w.children,function(d){s.io.observe(d)});
+    if(go>1)vb.scrollTop=w.offsetTop+w.children[Math.min(go,n)-1].offsetTop;updPg()})}
+function lock(o){document.documentElement.style.overflow=o?'hidden':''}
+function vClose(pop){var s=VS;if(!s)return;VS=null;
+  if(s.pdf){if(s.cur&&s.cur!==(s.item.pg||1)){s.item.pg=s.cur;persist()}try{if(s.io)s.io.disconnect();s.pdf.destroy()}catch(e){}}
+  if(s.u){try{URL.revokeObjectURL(s.u)}catch(e){}}
+  $('viewer').hidden=true;$('vb').innerHTML='';lock(false);
+  if(!pop&&history.state&&history.state.sv){try{history.back()}catch(e){}}}
+function vFail(i,msg){var vb=$('vb');vb.className='vb';vb.innerHTML='<div class="vmsg"><div>'+esc(msg)+'</div><button class="btn" data-share="'+i.id+'">অন্য অ্যাপে খুলুন</button></div>'}
+function openViewer(i){
+  var r=res(i),k=r.k;
+  if(miss(i)){relinkFor=i.id;$('rfile').click();return}
+  if(r.local&&(k==='doc'||k==='file')){shareFile(i);return}
+  if(!r.local&&!r.src&&k!=='image'){openExt(i.url);return}
+  var vb=$('vb');VS={id:i.id,item:i,r:r,z:1,cur:i.pg||1};var s=VS;
+  $('vt').textContent=ttlOf(i);$('vbar').hidden=true;$('vo').hidden=false;vb.className='vb';vb.innerHTML='<div class="vmsg">খোলা হচ্ছে…</div>';
+  $('viewer').hidden=false;lock(true);try{history.pushState({sv:1},'')}catch(e){}
+  if(k==='image'){vb.className='vb img';
+    if(r.local)fget(i.id).then(function(b){if(VS!==s)return;if(!b)throw 0;s.u=URL.createObjectURL(b);vb.innerHTML='<img alt="" src="'+s.u+'">'}).catch(function(){if(VS===s)vFail(i,'ছবিটি খোলা যায়নি।')});
+    else vb.innerHTML='<img alt="" src="'+esc(r.raw||r.url)+'">';return}
+  if(!r.local){vb.className='vb ifr';vb.innerHTML='<iframe src="'+esc(r.src)+'" allow="autoplay; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>';return}
+  /* লোকাল পিডিএফ */
+  fget(i.id).then(function(b){if(!b)throw 0;return loadPdf().then(function(lib){return b.arrayBuffer().then(function(buf){return lib.getDocument({data:buf}).promise})})})
+    .then(function(doc){if(VS!==s){try{doc.destroy()}catch(e){}return}s.pdf=doc;$('vbar').hidden=false;buildPages(s.cur)})
+    .catch(function(){if(VS===s)vFail(i,'পিডিএফটি অ্যাপের ভেতরে খোলা গেল না। অন্য একটি অ্যাপে খুলে দেখুন।')})}
+var UA='Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36',FBK='shikhon-fbmap',FBM={};
+try{FBM=JSON.parse(localStorage.getItem(FBK)||'{}')||{}}catch(e){FBM={}}
+/* ফেসবুক লিংক ঠিক করা: m./web. ঠিকানা সাধারণ করা, ভিডিও আইডি থেকে আসল ঠিকানা বানানো */
+function fbNorm(u){return u.replace(/^(https?:\/\/)(?:m|web|mbasic|touch|mobile|business)\.facebook\.com/i,'$1www.facebook.com').replace(/^(https?:\/\/)(?:www\.)?fb\.com/i,'$1www.facebook.com')}
+function fbCanon(u){var m;
+  if((m=u.match(/\/reel\/(\d{6,})/i)))return 'https://www.facebook.com/reel/'+m[1];
+  if((m=u.match(/[?&]v=(\d{6,})/i)))return 'https://www.facebook.com/watch/?v='+m[1];
+  if((m=u.match(/\/videos\/(?:[^\/?#]+\/)?(\d{6,})/i)))return 'https://www.facebook.com/watch/?v='+m[1];
+  return ''}
+function fbNeeds(u){return /fb\.watch\//i.test(u)||/facebook\.com\/share\/(?:v|r|p)\//i.test(u)}
+/* ছোট বা শেয়ার লিংক (fb.watch, /share/v/...) অ্যাপ নিজে খুলে আসল ভিডিও আইডি বের করে মনে রাখে */
+function resolveFb(u,cb){
+  var C=window.Capacitor,H=C&&C.Plugins&&C.Plugins.CapacitorHttp;
+  if(FBM[u]||!H){cb(FBM[u]||'');return}
+  var done=false;function fin(c){if(done)return;done=true;if(c){FBM[u]=c;try{localStorage.setItem(FBK,JSON.stringify(FBM))}catch(e){}}cb(c||'')}
+  setTimeout(function(){fin('')},12000);
+  try{H.get({url:fbNorm(u),headers:{'User-Agent':UA,'Accept-Language':'en-US,en;q=0.9'},connectTimeout:8000,readTimeout:8000}).then(function(r){
+    var c=fbCanon(fbNorm(String(r&&r.url||'')));
+    if(!c&&r&&typeof r.data==='string'){var m=r.data.match(/"video_id":"(\d{6,})"/)||r.data.match(/\/(?:reel|videos)\/(\d{8,})/)||r.data.match(/[?&]v=(\d{8,})/);if(m)c='https://www.facebook.com/watch/?v='+m[1]}
+    fin(c)}).catch(function(){fin('')})}catch(e){fin('')}
+}
+/* এমবেড না চললে মূল লিংক অ্যাপের ভেতরের ব্রাউজারে (Custom Tab) বা সাধারণ ব্রাউজারে খোলা */
+function openExt(u){var C=window.Capacitor,B=C&&C.Plugins&&C.Plugins.Browser;
+  if(B){try{B.open({url:u}).catch(function(){window.open(u,'_blank')});return}catch(e){}}
+  window.open(u,'_blank')}
+
+/* ভিডিও প্ল্যাটফর্ম ছাড়া অন্য লিংক: পিডিএফ, অডিও, ড্রাইভ, ডক ইত্যাদি */
+function rfile(u){var m,U=null,path=u;
+  if((m=u.match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?(track|episode|show|playlist|album)\/(\w+)/i)))return{p:'audio',k:'embed',lb:'স্পটিফাই',src:'https://open.spotify.com/embed/'+m[1].toLowerCase()+'/'+m[2],url:u,v:false};
+  if(/(^|\/\/)(www\.|m\.)?soundcloud\.com\//i.test(u))return{p:'audio',k:'embed',lb:'সাউন্ডক্লাউড',src:'https://w.soundcloud.com/player/?auto_play=true&url='+encodeURIComponent(u),url:u,v:false};
+  if((m=u.match(/drive\.google\.com\/(?:file\/d\/|open\?(?:[^#]*&)?id=|uc\?(?:[^#]*&)?id=)([\w-]{10,})/i)))return{p:'drive',k:'doc',src:'https://drive.google.com/file/d/'+m[1]+'/preview',url:u,v:false};
+  if((m=u.match(/docs\.google\.com\/(document|spreadsheets|presentation)\/d\/([\w-]{10,})/i)))return{p:'gdoc',k:'doc',src:'https://docs.google.com/'+m[1]+'/d/'+m[2]+(m[1]==='presentation'?'/embed':'/preview'),url:u,v:false};
+  try{U=new URL(u);path=decodeURIComponent(U.pathname)}catch(e){path=u.split(/[?#]/)[0]}
+  var k=kindOf(path,'',true);if(!k)return null;
+  var raw=u;try{if(U&&/(^|\.)dropbox\.com$/i.test(U.hostname)){U.searchParams.delete('dl');U.searchParams.set('raw','1');raw=U.toString()}}catch(e){}
+  var r={p:k,k:k,url:u,raw:raw,src:'',v:false};
+  if(k==='pdf')r.src='https://docs.google.com/gview?embedded=1&url='+encodeURIComponent(raw);
+  else if(k==='doc')r.src='https://view.officeapp.live.com/op/embed.aspx?src='+encodeURIComponent(raw);
+  return r}
+function parse(u){
+  u=(u||'').trim();if(u&&!/^https?:\/\//i.test(u))u='https://'+u;var m;
+  if(/youtu\.?be/i.test(u)){m=u.match(/(?:v=|youtu\.be\/|shorts\/|embed\/|live\/)([\w-]{11})/);
+    if(m)return{p:'youtube',src:'https://www.youtube.com/embed/'+m[1]+'?rel=0&playsinline=1',v:/shorts\//.test(u),url:u,t:'https://i.ytimg.com/vi/'+m[1]+'/hqdefault.jpg'}}
+  if(/instagram\.com/i.test(u)){m=u.match(/instagram\.com\/(?:[\w.]+\/)?(p|reel|reels|tv)\/([\w-]+)/i);
+    return{p:'instagram',src:m?'https://www.instagram.com/'+(m[1]==='reels'?'reel':m[1])+'/'+m[2]+'/embed':'',v:true,url:u}}
+  if(/tiktok\.com/i.test(u)){m=u.match(/\/video\/(\d+)/);return{p:'tiktok',src:m?'https://www.tiktok.com/embed/v2/'+m[1]:'',v:true,url:u}}
+  if(/facebook\.com|fb\.watch|fb\.com/i.test(u)){var fn=fbNorm(u),fc=fbCanon(fn)||FBM[u]||'',fneed=!fc&&fbNeeds(fn),fh=fc||(fneed?'':fn);
+    return{p:'facebook',src:fh?'https://www.facebook.com/plugins/video.php?show_text=false&width=560&t=0&href='+encodeURIComponent(fh):'',v:/\/reel\//.test(fh||fn),url:u,needs:fneed}}
+  var rf=u?rfile(u):null;if(rf)return rf;
+  return u?{p:'other',src:'',v:false,url:u}:null;
+}
+function res(i){if(i.file){var k=i.file.k||'file';return{p:k,k:k,local:true,v:false,url:'',src:'',raw:''}}return parse(i.url)||{p:'other',k:'embed',src:'',v:false}}
+function shape(i,r){return r.k==='audio'?'a':(i.shape||(r.v?'v':'h'))}
+function ov(i,r){return (i.done?'<span class="rib">✓ সম্পন্ন</span>':'')+'<span class="pov p-'+r.p+'">'+esc(lbl(r))+'</span>'}
+function frameHtml(i,r){
+  var k=r.k||'embed',th=i.thumb||i.auto||r.t,cv=th?'<img src="'+esc(th)+'" alt="" loading="lazy">':'';
+  if(k==='embed'){
+    if(playing[i.id]&&r.src)return '<iframe src="'+esc(ysrc(i,r))+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+    return (r.src||r.needs)?'<button class="play" data-play="'+i.id+'" aria-label="ভিডিও চালান">'+cv+'<span class="tri">▶</span>'+ov(i,r)+'</button>'
+     :'<button class="play" data-ext="'+i.id+'">'+cv+'<span class="tri">↗</span><em>এই লিংক অ্যাপের ভেতরের ব্রাউজারে খুলবে</em>'+ov(i,r)+'</button>';
+  }
+  var ms=miss(i),ma=r.local?'data-blob="'+i.id+'" data-aid="'+i.id+'"':'src="'+esc(r.raw||r.url)+'" data-aid="'+i.id+'"';
+  if(playing[i.id]&&!ms&&k==='video')return '<video controls playsinline preload="metadata" '+ma+'></video>';
+  if(playing[i.id]&&!ms&&k==='audio')return '<div class="aud k-audio"><div class="fc"><span class="fic">'+ico(k)+'</span><b>'+esc(ttlOf(i))+'</b></div><audio controls preload="metadata" '+ma+'></audio></div>';
+  var act=ms?'data-relink':(k==='audio'||k==='video')?'data-play':k==='file'?(r.local?'data-share':'data-ext'):'data-view',
+      cta={pdf:'পড়তে ট্যাপ করুন',audio:'শুনতে ট্যাপ করুন',video:'দেখতে ট্যাপ করুন',image:'দেখতে ট্যাপ করুন',doc:'খুলতে ট্যাপ করুন',file:'অন্য অ্যাপে খুলতে ট্যাপ করুন'}[k]||'খুলতে ট্যাপ করুন',
+      sub=ms?'ফাইলটি এই ফোনে নেই · ট্যাপ করে আবার বেছে নিন':cta+(r.local&&i.file.size?' · '+sz(i.file.size):'');
+  return '<button class="play fk k-'+r.p+(ms?' miss':'')+'" '+act+'="'+i.id+'" aria-label="'+esc(ttlOf(i))+'">'+(th?cv+'<span class="shade"></span>':'')
+    +'<span class="fc"><span class="fic">'+ico(k)+'</span><b>'+esc(ttlOf(i))+'</b><small>'+esc(sub)+'</small></span>'+ov(i,r)+'</button>';
+}
+function body(i){
+  var r=res(i),k=r.k||'embed',m=(i.memo||'').trim(),wc=m?m.split(/\s+/).length:0,no=openNb[i.id],mo=openMore[i.id],vid=k==='embed'||k==='video',
+      fm=i.file?'<p class="fm">📎 '+esc(i.file.name)+(i.file.size?' · '+sz(i.file.size):'')+(miss(i)?' · ⚠ এই ফোনে ফাইল নেই':'')+'</p>':'';
+  return '<div class="bd" id="b'+i.id+'"><div class="mt"><span class="ct">'+esc(i.cat||'সাধারণ')+'</span><span class="pf">'+esc(lbl(r))+'</span><span class="dt">'+fmt(i.ts)+'</span></div>'
+  +(i.title?'<p class="ttl">'+esc(i.title)+'</p>':'')+fm
+  +(i.note?'<p class="nt">'+esc(i.note)+'</p>':'')
+  +'<div class="seg"><button class="s'+(i.done?' ok':'')+'" data-done="'+i.id+'"><i>✓</i><span>'+(i.done?'সম্পন্ন':'কাজে লাগাব')+'</span></button>'
+  +'<button class="s'+(no?' on':'')+'" data-nb="'+i.id+'"><i>✎</i><span>নোট'+(wc?' · '+bn(wc):'')+'</span></button>'
+  +'<button class="s'+(mo?' on':'')+'" data-more="'+i.id+'"><i>⋯</i><span>আরও</span></button></div>'
+  +(no?'<div class="pn np"><div class="ph2"><b>📝 আমার নোটবুক</b><button class="x" data-nb="'+i.id+'" aria-label="বন্ধ করুন">✕</button></div><textarea data-memo="'+i.id+'" placeholder="এখানে যেকোনো কিছু লিখুন—পয়েন্ট, আর্টিকেল, আইডিয়া বা অ্যাকশন প্ল্যান…">'+esc(i.memo||'')+'</textarea><small><span id="ns'+i.id+'">স্বয়ংক্রিয়ভাবে সংরক্ষিত হয়</span><span>'+(i.mts?fmt(i.mts):'')+'</span></small></div>':'')
+  +(mo?'<div class="pn"><div class="ph2"><b>⚙ আরও অপশন</b><button class="x" data-more="'+i.id+'" aria-label="বন্ধ করুন">✕</button></div><div class="mm"><button class="gh" data-thumb="'+i.id+'">🖼 থাম্বনেইল</button>'
+    +(vid?'<button class="gh" data-big="'+i.id+'">⛶ বড় পর্দা</button><button class="gh" data-shape="'+i.id+'">▭ ▯ ফ্রেমের আকার</button>':'')
+    +(i.file?'<button class="gh" data-share="'+i.id+'">↗ অন্য অ্যাপে খুলুন</button><button class="gh" data-relink="'+i.id+'">📁 ফাইল বদলান</button>':'<button class="gh" data-ext="'+i.id+'">মূল লিংক ↗</button>')
+    +'<button class="gh del" data-del="'+i.id+'" style="grid-column:1/-1">মুছে ফেলুন</button></div></div>':'')+'</div>';
+}
+function card(i){var r=res(i);
+  return '<article class="g c'+(openNb[i.id]||openMore[i.id]||playing[i.id]?' stack':'')+'" id="c'+i.id+'"><div class="fw"><div class="fr'+(playing[i.id]?' on ':' ')+shape(i,r)+'" id="f'+i.id+'">'+frameHtml(i,r)+'</div></div>'+body(i)+'</article>'}
+function upd(id){var i=find(id);if(i)$('b'+id).outerHTML=body(i);$('c'+id).classList.toggle('stack',!!(openNb[id]||openMore[id]||playing[id]));stats()}
+function stats(){
+  var d=items.filter(function(i){return i.done}).length,t=items.length,p=t?Math.round(d*100/t):0;
+  $('sT').textContent=bn(t);$('sD').textContent=bn(d);$('sP').textContent=bn(t-d);$('pct').textContent=bn(p)+'%';$('ringfill').style.width=p+'%';if($('bkInfo'))dockInfo();
+}
+function render(){
+  var cats=['সব'];items.forEach(function(i){if(i.cat&&cats.indexOf(i.cat)<0)cats.push(i.cat)});
+  if(cats.indexOf(filter)<0)filter='সব';
+  $('chips').innerHTML=cats.map(function(c){var n=c==='সব'?items.length:items.filter(function(x){return x.cat===c}).length;return '<button class="chip'+(c===filter?' on':'')+'" data-c="'+esc(c)+'" aria-pressed="'+(c===filter)+'"><span>'+esc(c)+'</span><em>'+bn(n)+'</em></button>'}).join('');
+  $('cats').innerHTML=cats.slice(1).map(function(c){return '<option value="'+esc(c)+'">'}).join('');
+  var inCat=items.filter(function(i){return filter==='সব'||i.cat===filter}),cn={};inCat.forEach(function(i){var g=grp(i);cn[g]=(cn[g]||0)+1});
+  if(tfilter!=='all'&&!cn[tfilter])tfilter='all';
+  $('tp').hidden=!inCat.length;
+  $('tchips').innerHTML=inCat.length?['all','video','audio','pdf','image','other'].filter(function(g){return g==='all'||cn[g]}).map(function(g){var KC={video:'k-video',audio:'k-audio',pdf:'k-pdf',image:'k-image',other:'k-file',all:''}[g];return '<button class="tt '+KC+(g===tfilter?' on':'')+'" data-tf="'+g+'" aria-pressed="'+(g===tfilter)+'"><span class="ti">'+ico(g==='other'?'file':g)+'</span><b>'+(g==='all'?'সব ধরন':TL[g])+'</b><i>'+bn(g==='all'?inCat.length:cn[g])+' টি</i></button>'}).join(''):'';
+  var q=query.toLowerCase(),list=items.filter(function(i){return(filter==='সব'||i.cat===filter)&&(tfilter==='all'||grp(i)===tfilter)&&(!q||((i.note||'')+' '+(i.cat||'')+' '+(i.memo||'')+' '+(i.title||'')+' '+(i.file?i.file.name:'')).toLowerCase().indexOf(q)>-1)});
+  $('cnt').textContent=bn(list.length)+' টি আইটেম';stats();
+  $('grid').innerHTML=list.length?list.map(card).join(''):'<div class="empty"><b>'+(items.length?'কিছু পাওয়া যায়নি':'আপনার ভল্ট এখনো খালি')+'</b>'+(items.length?'অন্য শব্দে খুঁজে দেখুন।':'প্রথম লিংক বা ফাইল যোগ করে শুরু করুন।')+'</div>';
+  hydrate();
+}
+function setAdd(o){$('addbox').hidden=!o;$('fab').classList.toggle('open',o);$('fab').setAttribute('aria-label',o?'ফর্ম বন্ধ করুন':'নতুন কিছু যোগ করুন');$('tog').classList.toggle('open',o);$('tog').setAttribute('aria-expanded',o);$('hn').textContent=o?'বন্ধ করতে ট্যাপ করুন':'খুলতে ট্যাপ করুন'}
+function shrink(file,cb){var rd=new FileReader();rd.onload=function(){var im=new Image();im.onload=function(){var w=Math.min(640,im.width),h=im.height*w/im.width,c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').drawImage(im,0,0,w,h);cb(c.toDataURL('image/jpeg',.78))};im.onerror=function(){cb('')};im.src=rd.result};rd.readAsDataURL(file)}
+function fetchAuto(it){if(it.thumb||res(it).p!=='tiktok')return;try{fetch('https://www.tiktok.com/oembed?url='+encodeURIComponent(it.url)).then(function(r){return r.json()}).then(function(j){if(j&&j.thumbnail_url){it.auto=j.thumbnail_url;persist();render()}}).catch(function(){})}catch(e){}}
+
+$('url').addEventListener('input',function(){var r=parse(this.value);$('det').innerHTML=r?'ধরা পড়েছে: <b>'+esc(lbl(r))+'</b>':''});
+$('tfile').addEventListener('change',function(){var f=this.files[0];if(!f){pend='';return}shrink(f,function(d){pend=d})});
+$('tfile2').addEventListener('change',function(){var f=this.files[0],id=pickFor;if(!f)return;shrink(f,function(d){var i=find(id);if(!i||!d)return;i.thumb=d;persist();$('f'+id).innerHTML=frameHtml(i,res(i));hydrate()});this.value=''});
+function setSrc(m){srcMode=m;$('srcLink').hidden=m!=='link';$('srcFile').hidden=m!=='file';
+  document.querySelectorAll('[data-src]').forEach(function(b){var on=b.dataset.src===m;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});
+  $('save').textContent=m==='file'?'ফাইল ভল্টে সংরক্ষণ করুন':'ভল্টে সংরক্ষণ করুন'}
+function renderPF(){$('flist').innerHTML=pf.map(function(f,n){var k=kindOf(f.name,f.type)||'file';return '<div class="fi k-'+k+'"><span class="fic">'+ico(k)+'</span><span class="fn">'+esc(f.name)+'</span><small>'+sz(f.size)+'</small><button class="x" type="button" data-rm="'+n+'" aria-label="সরান">✕</button></div>'}).join('');
+  $('fdet').textContent=pf.length>1?bn(pf.length)+' টি ফাইল বাছাই করা হয়েছে (প্রতিটি আলাদা আইটেম হবে, শিরোনাম ফাইলের নাম থেকে আসবে)':''}
+function addPF(list){[].forEach.call(list||[],function(f){if(!pf.some(function(x){return x.name===f.name&&x.size===f.size&&x.lastModified===f.lastModified}))pf.push(f)});renderPF()}
+function saveFiles(){
+  if(!pf.length){$('fdet').textContent='আগে এক বা একাধিক ফাইল বেছে নিন।';return}
+  var btn=$('save'),list=pf.slice(),one=list.length===1,note=$('note').value.trim(),cat=$('cat').value.trim(),ttl=one?$('ttl').value.trim():'',th=one?pend:'',made=[],bad=0,txt=btn.textContent;
+  btn.disabled=true;btn.textContent='সংরক্ষণ হচ্ছে…';HAVE=HAVE||{};
+  try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persist()}catch(e){}
+  list.reduce(function(p,f){return p.then(function(){
+    var id=newId(),k=kindOf(f.name,f.type)||'file',mt=f.type||MIME[extOf(f.name)]||'application/octet-stream',it={id:id,url:'',file:{name:f.name,size:f.size,type:mt,k:k},title:ttl,note:note,cat:cat,done:false,ts:Date.now(),thumb:th};
+    return fput(id,new Blob([f],{type:mt})).then(function(){HAVE[id]=1;return k==='image'&&!th?new Promise(function(ok){shrink(f,ok)}):th})
+      .then(function(t){it.thumb=t||'';made.push(it)}).catch(function(){bad++})})},Promise.resolve()).then(function(){
+    btn.disabled=false;btn.textContent=txt;
+    if(made.length){items=made.concat(items);persist();pf=[];pend='';renderPF();['ttl','note','cat','tfile'].forEach(function(k){$(k).value=''});$('fdet').textContent='';render();setAdd(false);
+      window.scrollTo({top:$('grid').getBoundingClientRect().top+window.pageYOffset-150,behavior:'smooth'})}
+    toast(made.length?('✓ '+bn(made.length)+' টি ফাইল যোগ হয়েছে'+(bad?' · '+bn(bad)+' টি যোগ করা যায়নি':'')):'ফাইল সংরক্ষণ করা যায়নি (ফোনে জায়গা আছে কি দেখুন)')})}
+$('save').addEventListener('click',function(){
+  if(srcMode==='file'){saveFiles();return}
+  var r=parse($('url').value);if(!r){$('det').textContent='আগে একটি লিংক দিন।';return}
+  var ni={id:newId(),url:r.url,title:$('ttl').value.trim(),note:$('note').value.trim(),cat:$('cat').value.trim(),done:false,ts:Date.now(),thumb:pend};
+  if(r.k==='image')ni.auto=r.raw||r.url;
+  items.unshift(ni);persist();pend='';['url','ttl','note','cat','tfile'].forEach(function(k){$(k).value=''});$('det').textContent='';fetchAuto(ni);if(r.needs)resolveFb(ni.url,function(){render()});render();setAdd(false);
+  window.scrollTo({top:$('grid').getBoundingClientRect().top+window.pageYOffset-150,behavior:'smooth'});
+});
+$('dkTog').addEventListener('click',function(){var o=this.getAttribute('aria-expanded')!=='true';this.setAttribute('aria-expanded',o);$('dock').hidden=!o;if(o){dockInfo();setTimeout(function(){$('dock').scrollIntoView({behavior:'smooth',block:'start'})},60)}});
+$('dz').addEventListener('click',function(){$('pfile').click()});
+$('pfile').addEventListener('change',function(){addPF(this.files);this.value=''});
+['dragenter','dragover'].forEach(function(ev){$('dz').addEventListener(ev,function(e){e.preventDefault();this.classList.add('over')})});
+['dragleave','drop'].forEach(function(ev){$('dz').addEventListener(ev,function(e){e.preventDefault();this.classList.remove('over');if(ev==='drop'&&e.dataTransfer)addPF(e.dataTransfer.files)})});
+$('rfile').addEventListener('change',function(){var f=this.files[0],id=relinkFor;this.value='';if(!f||!id)return;var i=find(id);if(!i)return;
+  var k=kindOf(f.name,f.type)||'file',mt=f.type||MIME[extOf(f.name)]||'application/octet-stream';HAVE=HAVE||{};
+  fput(id,new Blob([f],{type:mt})).then(function(){HAVE[id]=1;i.file={name:f.name,size:f.size,type:mt,k:k};persist();render();toast('✓ ফাইল যুক্ত হয়েছে')}).catch(function(){toast('ফাইল সংরক্ষণ করা যায়নি')})});
+$('q').addEventListener('input',function(){query=this.value;$('qx').hidden=!query;playing={};render()});
+$('qx').addEventListener('click',function(){var q=$('q');q.value='';query='';this.hidden=true;render();q.focus()});
+$('tog').addEventListener('click',function(){setAdd($('addbox').hidden)});
+$('fab').addEventListener('click',function(){var o=$('addbox').hidden;setAdd(o);if(o)window.scrollTo({top:0,behavior:'smooth'})});
+document.addEventListener('error',function(e){if(e.target&&e.target.tagName==='IMG')e.target.remove()},true);
+document.addEventListener('input',function(e){var t=e.target;if(!t.dataset||!t.dataset.memo)return;var id=t.dataset.memo,i=find(id);if(!i)return;i.memo=t.value;i.mts=Date.now();var s=$('ns'+id);if(s)s.textContent='সংরক্ষণ হচ্ছে…';clearTimeout(tmr);tmr=setTimeout(function(){persist();if(s)s.textContent='✓ সংরক্ষিত'},500)});
+function startPlay(id){var i=find(id);if(!i)return;playing[id]=true;var r=res(i),f=$('f'+id);if(!f)return;f.className='fr on '+shape(i,r);f.innerHTML=frameHtml(i,r);upd(id);AUTO=true;hydrate();AUTO=false}
+document.addEventListener('click',function(e){
+  var t=e.target.closest('[data-c],[data-tf],[data-play],[data-done],[data-nb],[data-more],[data-thumb],[data-big],[data-shape],[data-del],[data-ext],[data-view],[data-share],[data-relink],[data-src],[data-rm]');if(!t)return;var d=t.dataset,i;
+  if(d.c){filter=d.c;tfilter='all';playing={};render()}
+  else if(d.tf){tfilter=d.tf;playing={};render()}
+  else if(d.src){setSrc(d.src)}
+  else if(d.rm!==undefined){pf.splice(+d.rm,1);renderPF()}
+  else if(d.view){i=find(d.view);if(i)openViewer(i)}
+  else if(d.share){i=find(d.share);if(i)shareFile(i)}
+  else if(d.relink){relinkFor=d.relink;$('rfile').click()}
+  else if(d.play){i=find(d.play);var rp=res(i),pid=i.id,pu=i.url;
+    if(rp.k&&rp.k!=='embed')startPlay(pid);
+    else if(rp.needs){toast('ফেসবুক ভিডিও প্রস্তুত হচ্ছে…');resolveFb(pu,function(c){if(c)startPlay(pid);else{toast('ভিডিওটি অ্যাপের ভেতরে চালানো গেল না, ফেসবুকে খুলছি');openExt(pu)}})}
+    else startPlay(pid)}
+  else if(d.ext){i=find(d.ext);if(i&&!i.file)openExt(i.url)}
+  else if(d.done){i=find(d.done);i.done=!i.done;persist();upd(i.id);if(!playing[i.id]){$('f'+i.id).innerHTML=frameHtml(i,res(i));hydrate()}}
+  else if(d.nb){var onN=!openNb[d.nb];openNb[d.nb]=onN;if(onN)openMore[d.nb]=false;upd(d.nb);var ta=onN&&document.querySelector('[data-memo="'+d.nb+'"]');if(ta)ta.focus()}
+  else if(d.more){var onM=!openMore[d.more];openMore[d.more]=onM;if(onM)openNb[d.more]=false;upd(d.more)}
+  else if(d.thumb){pickFor=d.thumb;$('tfile2').click()}
+  else if(d.big){i=find(d.big);var r2=res(i),bid=i.id,bu=i.url;
+    if(r2.k==='video'){if(miss(i)){toast('ফাইলটি এই ফোনে নেই');return}$('mbody').innerHTML='<div class="fw"><div class="fr on h"><video controls playsinline preload="metadata" '+(r2.local?'data-blob="'+bid+'" data-aid="'+bid+'"':'src="'+esc(r2.raw||r2.url)+'" data-aid="'+bid+'"')+'></video></div></div>';$('modal').hidden=false;AUTO=true;hydrate();AUTO=false}
+    else if(!r2.src&&r2.needs){toast('ফেসবুক ভিডিও প্রস্তুত হচ্ছে…');resolveFb(bu,function(c){if(c){var bb=document.querySelector('[data-big="'+bid+'"]');if(bb)bb.click()}else openExt(bu)})}
+    else if(r2.src){var s=shape(i,r2);$('mbody').innerHTML='<div class="fw"><div class="fr on '+s+'"><iframe src="'+esc(r2.src)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div>';$('modal').hidden=false}
+    else openExt(i.url)}
+  else if(d.shape){i=find(d.shape);var r3=res(i),o={h:'v',v:'s',s:'h'};i.shape=o[shape(i,r3)]||'h';persist();$('f'+i.id).className='fr'+(playing[i.id]?' on ':' ')+i.shape}
+  else if(d.del){if(confirm('এটি মুছে ফেলবেন?')){var gone=d.del;items=items.filter(function(x){return x.id!==gone});persist();if(HAVE)delete HAVE[gone];fdel(gone).catch(function(){});render()}}
+});
+$('vx').addEventListener('click',function(){vClose()});
+$('vo').addEventListener('click',function(){if(!VS)return;if(VS.r.local)shareFile(VS.item);else openExt(VS.item.url)});
+$('vzi').addEventListener('click',function(){zoomPdf(1)});$('vzo').addEventListener('click',function(){zoomPdf(-1)});
+function applyZoom(nz,cx,cy){var s=VS;if(!s||!s.pdf||!s.wrap)return;nz=Math.max(1,Math.min(4,nz));if(Math.abs(nz-s.z)<.01)return;
+  var vb=$('vb'),k=nz/s.z,sl=vb.scrollLeft,st=vb.scrollTop,ox=s.wrap.offsetLeft,oy=s.wrap.offsetTop;
+  s.z=nz;s.wrap.style.width=(nz*100)+'%';
+  [].forEach.call(s.wrap.children,clrPg);s.io.disconnect();[].forEach.call(s.wrap.children,function(d){s.io.observe(d)});
+  vb.scrollLeft=(cx+sl-ox)*k+ox-cx;vb.scrollTop=(cy+st-oy)*k+oy-cy}
+function zoomPdf(dir){var s=VS;if(!s||!s.pdf)return;var vb=$('vb');applyZoom(s.z*(dir>0?1.4:1/1.4),vb.clientWidth/2,vb.clientHeight/2)}
+/* দুই আঙুলে পিঞ্চ-জুম */
+(function(){var vb=$('vb'),g=null;
+  function dist(t){return Math.hypot(t[0].clientX-t[1].clientX,t[0].clientY-t[1].clientY)}
+  vb.addEventListener('touchstart',function(e){var s=VS;if(!s||!s.pdf||!s.wrap||e.touches.length!==2)return;
+    var r=vb.getBoundingClientRect(),cx=(e.touches[0].clientX+e.touches[1].clientX)/2-r.left,cy=(e.touches[0].clientY+e.touches[1].clientY)/2-r.top;
+    g={d:dist(e.touches),z:s.z,f:1,cx:cx,cy:cy};
+    s.wrap.style.transformOrigin=(cx+vb.scrollLeft-s.wrap.offsetLeft)+'px '+(cy+vb.scrollTop-s.wrap.offsetTop)+'px';s.wrap.style.willChange='transform'},{passive:true});
+  vb.addEventListener('touchmove',function(e){var s=VS;if(!g||!s||!s.wrap||e.touches.length!==2)return;e.preventDefault();
+    g.f=Math.max(1/g.z,Math.min(4/g.z,dist(e.touches)/g.d));s.wrap.style.transform='scale('+g.f+')'},{passive:false});
+  function end(e){var s=VS;if(!g||(e.touches&&e.touches.length>=2))return;var q=g;g=null;if(!s||!s.wrap)return;
+    s.wrap.style.transform='';s.wrap.style.willChange='';s.wrap.style.transformOrigin='';
+    if(Math.abs(q.f-1)>.02)applyZoom(q.z*q.f,q.cx,q.cy)}
+  vb.addEventListener('touchend',end);vb.addEventListener('touchcancel',end)})();
+$('vb').addEventListener('scroll',function(){var s=VS;if(!s||!s.pdf||s.tick)return;s.tick=requestAnimationFrame(function(){s.tick=0;updPg()})});
+window.addEventListener('popstate',function(){if(VS)vClose(true)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&VS)vClose()});
+$('modal').addEventListener('click',function(e){if(e.target.id==='modal'||e.target.id==='mx'){$('mbody').innerHTML='';this.hidden=true;hydrate()}});
+$('imp').addEventListener('click',function(){$('file').click()});
+(function(){var s=$('sent'),t=document.querySelector('.tools');if(!s||!('IntersectionObserver' in window))return;new IntersectionObserver(function(e){t.classList.toggle('stuck',!e[0].isIntersecting&&e[0].boundingClientRect.top<0)},{threshold:0}).observe(s)})();
+var TK='shikhon-theme',BK='shikhon-last-backup',tt;
+function toast(m){var t=$('toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('show')},2600)}
+function lastBk(){try{var v=+localStorage.getItem(BK);return v?fmt(v):''}catch(e){return ''}}
+function dockInfo(){var st=$('dkSt');if(!st)return;var raw=0;try{raw=+localStorage.getItem(BK)||0}catch(e){}
+  var lc=items.filter(function(x){return x.file}).length,age=raw?(Date.now()-raw)/864e5:null,ok=!!raw&&age<=7;
+  st.textContent=raw?(ok?'সুরক্ষিত':'ব্যাকআপ পুরোনো'):'ব্যাকআপ নেই';st.className='dchip '+(ok?'ok':'warn');
+  $('dkN').textContent=bn(items.length);$('dkF').textContent=bn(lc);$('dkL').textContent=raw?(age<1?'আজ':bn(Math.floor(age))+' দিন আগে'):'—';
+  var w=$('dkW');w.hidden=!lc;w.textContent=lc?'⚠ '+bn(lc)+' টি লোকাল ফাইল (পিডিএফ/অডিও ইত্যাদি) ব্যাকআপে যায় না। ফোন বদলালে সেগুলো আবার বেছে নিতে হবে।':''}
+function applyTheme(m,save){var r=document.documentElement;if(m==='light'||m==='dark')r.setAttribute('data-theme',m);else{r.removeAttribute('data-theme');m='auto'}
+  document.querySelectorAll('[data-tm]').forEach(function(b){var on=b.dataset.tm===m;b.classList.toggle('on',on);b.setAttribute('aria-checked',on)});
+  if(save){try{m==='auto'?localStorage.removeItem(TK):localStorage.setItem(TK,m)}catch(e){}}}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-tm]');if(b)applyTheme(b.dataset.tm,true)});
+$('exp').addEventListener('click',function(){
+  if(!items.length){toast('ব্যাকআপ নেওয়ার মতো কোনো আইটেম নেই');return}
+  var d=new Date(),pad=function(n){return(n<10?'0':'')+n},name='shikhon-vault-backup-'+d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'.json',json=JSON.stringify(items);
+  function done(){try{localStorage.setItem(BK,String(Date.now()))}catch(e){}dockInfo();toast('✓ ব্যাকআপ ফাইল তৈরি হয়েছে')}
+  var P=window.Capacitor&&window.Capacitor.Plugins;
+  if(P&&P.Filesystem&&P.Share){ /* অ্যান্ড্রয়েড অ্যাপ: ফাইল বানিয়ে শেয়ার মেনু খোলে (Drive, WhatsApp, Files ইত্যাদি) */
+    P.Filesystem.writeFile({path:name,data:json,directory:'CACHE',encoding:'utf8'})
+      .then(function(w){return P.Share.share({title:name,url:w.uri,dialogTitle:'ব্যাকআপ সংরক্ষণ / শেয়ার করুন'})})
+      .then(done)
+      .catch(function(e){if(/cancel/i.test(String(e&&e.message||e)))return;toast('ব্যাকআপ তৈরি করা যায়নি')});
+    return;
+  }
+  try{var u=URL.createObjectURL(new Blob([json],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);done()}catch(e){toast('ব্যাকআপ ডাউনলোড করা যায়নি')}});
+$('file').addEventListener('change',function(){var f=this.files[0],self=this;if(!f)return;var rd=new FileReader();
+  rd.onload=function(){try{var d=JSON.parse(rd.result);if(!Array.isArray(d))throw 0;d=d.filter(function(x){return x&&typeof x.url==='string'&&x.id});d.forEach(function(x){if(x.file&&typeof x.file!=='object')delete x.file});if(!d.length)throw 0;
+    if(items.length&&!confirm('বর্তমান লাইব্রেরির '+bn(items.length)+' টি আইটেম বদলে ব্যাকআপের '+bn(d.length)+' টি আইটেম বসবে।'+(items.some(function(x){return x.file})?'\nব্যাকআপে নেই এমন লোকাল ফাইল (পিডিএফ/অডিও ইত্যাদি) মুছে যাবে।':'')+'\nচালিয়ে যাবেন?'))return;
+    items=d;persist();cleanOrphans();render();toast('✓ '+bn(d.length)+' টি আইটেম ফিরিয়ে আনা হয়েছে')}catch(e){alert('ফাইলটি পড়া যায়নি। শিখন ভল্টের ব্যাকআপ (.json) ফাইল বেছে নিন।')}};
+  rd.readAsText(f);self.value=''});
+(function(){var s='';try{s=localStorage.getItem(TK)||''}catch(e){}applyTheme(s,false)})();
+load();$('grid').classList.add('intro');render();loadHave();setTimeout(function(){$('grid').classList.remove('intro')},1300);
+})();
+</script>
+<script>
+/* ব্যাকগ্রাউন্ড প্লেব্যাক (শুধু অ্যান্ড্রয়েড অ্যাপে): পেজে কোনো ভিডিও ফ্রেম থাকলে "ভিডিও চলছে" সার্ভিস চালু থাকে,
+   যাতে অ্যাপ মিনিমাইজ বা স্ক্রিন বন্ধ করলেও ভিডিও থামে না। ফ্রেম না থাকলে সার্ভিস বন্ধ হয়। */
+(function(){
+  var C=window.Capacitor;if(!C||!(C.isNativePlatform&&C.isNativePlatform()))return;
+  var K=(C.Plugins&&C.Plugins.KeepAlive)||(C.registerPlugin&&C.registerPlugin('KeepAlive'));if(!K)return;
+  var on=false,t;
+  function sync(){var has=!!document.querySelector('.fr iframe,audio,video');if(has===on)return;on=has;
+    try{var r=has?K.start():K.stop();if(r&&r.catch)r.catch(function(){})}catch(e){}}
+  new MutationObserver(function(){clearTimeout(t);t=setTimeout(sync,300)}).observe(document.body,{childList:true,subtree:true});
+  document.addEventListener('visibilitychange',function(){if(!document.hidden)sync()});
+})();
+</script>
+<script>
+if('serviceWorker' in navigator && /^https?:$/.test(location.protocol) && !window.Capacitor){
+  window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})});
+}
+</script>
+</body>
+</html>
