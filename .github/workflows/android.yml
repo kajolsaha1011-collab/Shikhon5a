@@ -1,0 +1,65 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Bundle PDF viewer (works offline)
+        run: |
+          mkdir -p www/assets/pdfjs
+          cp node_modules/pdfjs-dist/build/pdf.min.js node_modules/pdfjs-dist/build/pdf.worker.min.js www/assets/pdfjs/
+
+      - name: Create Android project
+        run: npx cap add android
+
+      - name: Generate app icon and splash screen
+        run: npx capacitor-assets generate --android --assetPath assets
+
+      - name: Sync web files
+        run: npx cap sync android
+
+      - name: Add background video playback (native code and permissions)
+        run: bash ci/apply-native.sh
+
+      - name: Set app name shown on phone (Bengali)
+        run: |
+          sed -i 's#>Shikhon Vault<#>শিখন ভল্ট<#g' android/app/src/main/res/values/strings.xml
+
+      - name: Set version code
+        run: sed -i "s/versionCode 1/versionCode ${{ github.run_number }}/" android/app/build.gradle
+
+      - name: Use fixed signing key (so updates install over old versions)
+        run: |
+          mkdir -p ~/.android
+          cp ci/debug.keystore ~/.android/debug.keystore
+
+      - name: Build APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+
+      - name: Rename APK
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk Shikhon.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Shikhon-APK
+          path: Shikhon.apk
